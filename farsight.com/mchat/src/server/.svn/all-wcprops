@@ -1,0 +1,135 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 20
+/svn/c2011/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/c2011/!svn/ver/13/trunk/src/server
+END
+network.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/c2011/!svn/ver/2/trunk/src/server/network.h
+END
+bool.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/c2011/!svn/ver/2/trunk/src/server/bool.h
+END
+mcafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/c2011/!svn/ver/2/trunk/src/server/mcafx.h
+END
+stack.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/c2011/!svn/ver/2/trunk/src/server/stack.c
+END
+GNUMakefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/c2011/!svn/ver/2/trunk/src/server/GNUMakefile
+END
+server.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/c2011/!svn/ver/2/trunk/src/server/server.c
+END
+data.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/c2011/!svn/ver/2/trunk/src/server/data.c
+END
+d.mak
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/c2011/!svn/ver/2/trunk/src/server/d.mak
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/c2011/!svn/ver/2/trunk/src/server/types.h
+END
+stack.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/c2011/!svn/ver/2/trunk/src/server/stack.h
+END
+server.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/c2011/!svn/ver/2/trunk/src/server/server.h
+END
+data.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/c2011/!svn/ver/2/trunk/src/server/data.h
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/c2011/!svn/ver/2/trunk/src/server/test.c
+END
+objs.mak
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/c2011/!svn/ver/2/trunk/src/server/objs.mak
+END
+controller.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/c2011/!svn/ver/2/trunk/src/server/controller.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/c2011/!svn/ver/13/trunk/src/server/main.c
+END
+ptc.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/c2011/!svn/ver/2/trunk/src/server/ptc.c
+END
+controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/c2011/!svn/ver/2/trunk/src/server/controller.h
+END
+network.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/c2011/!svn/ver/2/trunk/src/server/network.c
+END
+ptc.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/c2011/!svn/ver/2/trunk/src/server/ptc.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/c2011/!svn/ver/2/trunk/src/server/Makefile
+END

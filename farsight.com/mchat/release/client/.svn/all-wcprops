@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/c2011/!svn/ver/11/trunk/release/client
+END
+phonon4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/c2011/!svn/ver/2/trunk/release/client/phonon4.dll
+END
+QtGui4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/c2011/!svn/ver/2/trunk/release/client/QtGui4.dll
+END
+QtWebKit4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/c2011/!svn/ver/2/trunk/release/client/QtWebKit4.dll
+END
+libgcc_s_dw2-1.dll
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/c2011/!svn/ver/2/trunk/release/client/libgcc_s_dw2-1.dll
+END
+mingwm10.dll
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/c2011/!svn/ver/2/trunk/release/client/mingwm10.dll
+END
+QtCore4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/c2011/!svn/ver/2/trunk/release/client/QtCore4.dll
+END
+QtNetwork4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/c2011/!svn/ver/2/trunk/release/client/QtNetwork4.dll
+END
+mchat.exe
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/c2011/!svn/ver/9/trunk/release/client/mchat.exe
+END
