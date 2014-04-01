@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{0953d754-fff8-40d9-a3dc-da9421d9379c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{fe2a733a-ce4d-4d5d-a092-132f9115e61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gate">
+      <UniqueIdentifier>{ae49dcbe-37b0-41dc-9dff-beb574ace4a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\tools">
+      <UniqueIdentifier>{74b5a08e-eb1d-4090-a482-dd1a9ece021e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\packet">
+      <UniqueIdentifier>{2300a60d-a810-4667-869d-d653cf7ada99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\util">
+      <UniqueIdentifier>{2cb90acb-c65f-473f-b50e-509b72b424c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\rapidxml">
+      <UniqueIdentifier>{0517f461-0224-4545-ba2d-82a5a8f16e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\rules">
+      <UniqueIdentifier>{3e2be98f-891e-411e-ba9d-300e532a3e1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\gate\game.cc">
+      <Filter>gate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gate\main.cc">
+      <Filter>gate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gate\player.cc">
+      <Filter>gate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gate\poker.cc">
+      <Filter>gate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\iptv_logging.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\log.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\log_tracer.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\log_tracer_file.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\log_tracer_shell.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Archive.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\gnufuncs.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet_parser.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\config.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\dump.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\lock.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\select.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\socket.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\util\string.cc">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\deal_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\game_start_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\heartbit_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\hello_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\message_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\server_info_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\scene_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\rules\gouji.cc">
+      <Filter>common\rules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\play_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\gate\game.h">
+      <Filter>gate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gate\gate_config.h">
+      <Filter>gate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gate\player.h">
+      <Filter>gate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gate\poker.h">
+      <Filter>gate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\iptv_logging.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\log_tracer.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\log_tracer_file.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\log_tracer_shell.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Archive.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\gnufuncs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet_parser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Serial.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\config.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\dump.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\lock.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\select.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\socket.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rapidxml\rapidxml.hpp">
+      <Filter>common\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rapidxml\rapidxml_iterators.hpp">
+      <Filter>common\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rapidxml\rapidxml_print.hpp">
+      <Filter>common\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rapidxml\rapidxml_utils.hpp">
+      <Filter>common\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\util\string.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\deal_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\game_start_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\heartbit_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\hello_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\message_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\server_info_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\scene_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rules\gouji.h">
+      <Filter>common\rules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\play_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\Makefile">
+      <Filter>common</Filter>
+    </None>
+  </ItemGroup>
+</Project>

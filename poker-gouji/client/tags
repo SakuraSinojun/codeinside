@@ -1,0 +1,697 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR	:= i586-mingw32msvc-ar$/;"	m
+AR	window/Makefile	/^AR	:= i586-mingw32msvc-ar$/;"	m
+AddWatcher	packet_dispatcher.cc	/^void PacketDispatcher::AddWatcher(Watcher* watcher)$/;"	f	class:PacketDispatcher	signature:(Watcher* watcher)
+AddWatcher	packet_dispatcher.h	/^    void AddWatcher(Watcher* watcher);$/;"	p	class:PacketDispatcher	access:public	signature:(Watcher* watcher)
+BADARG	getopt.cc	31;"	d	file:
+BADCH	getopt.cc	30;"	d	file:
+BringWindowToTop	window/Window.cpp	/^void CWindow::BringWindowToTop(void)$/;"	f	class:CWindow	signature:(void)
+BringWindowToTop	window/Window.h	/^        virtual void BringWindowToTop(void);$/;"	p	class:CWindow	access:public	signature:(void)
+CApp	window/App.cpp	/^CApp::CApp() :$/;"	f	class:CApp	signature:()
+CApp	window/App.h	/^        CApp();$/;"	p	class:CApp	access:public	signature:()
+CApp	window/App.h	/^class CApp$/;"	c
+CApp::CApp	window/App.cpp	/^CApp::CApp() :$/;"	f	class:CApp	signature:()
+CApp::CApp	window/App.h	/^        CApp();$/;"	p	class:CApp	access:public	signature:()
+CApp::GetVersion	window/App.cpp	/^DWORD CApp::GetVersion(LPCTSTR lpszDllName)  $/;"	f	class:CApp	signature:(LPCTSTR lpszDllName)
+CApp::GetVersion	window/App.h	/^        DWORD GetVersion(LPCTSTR lpszDllName);$/;"	p	class:CApp	access:public	signature:(LPCTSTR lpszDllName)
+CApp::Init	window/App.cpp	/^void CApp::Init()$/;"	f	class:CApp	signature:()
+CApp::Init	window/App.h	/^        virtual void    Init(void);$/;"	p	class:CApp	access:public	signature:(void)
+CApp::loop	window/App.cpp	/^void CApp::loop(void)$/;"	f	class:CApp	signature:(void)
+CApp::loop	window/App.h	/^        virtual void    loop(void);$/;"	p	class:CApp	access:public	signature:(void)
+CApp::m_bLoop	window/App.h	/^        bool    m_bLoop;$/;"	m	class:CApp	access:private
+CApp::quit	window/App.cpp	/^void CApp::quit(void)$/;"	f	class:CApp	signature:(void)
+CApp::quit	window/App.h	/^        virtual void    quit(void);$/;"	p	class:CApp	access:public	signature:(void)
+CApp::~CApp	window/App.cpp	/^CApp::~CApp()$/;"	f	class:CApp	signature:()
+CApp::~CApp	window/App.h	/^        ~CApp();$/;"	p	class:CApp	access:public	signature:()
+CButton	window/Button.cpp	/^CButton::CButton()$/;"	f	class:CButton	signature:()
+CButton	window/Button.h	/^        CButton();$/;"	p	class:CButton	access:public	signature:()
+CButton	window/Button.h	/^class CButton   : public CWindow$/;"	c	inherits:CWindow
+CButton::CButton	window/Button.cpp	/^CButton::CButton()$/;"	f	class:CButton	signature:()
+CButton::CButton	window/Button.h	/^        CButton();$/;"	p	class:CButton	access:public	signature:()
+CButton::OnClick	window/Button.cpp	/^void CButton::OnClick()$/;"	f	class:CButton	signature:()
+CButton::OnClick	window/Button.h	/^        virtual void OnClick();$/;"	p	class:CButton	access:public	signature:()
+CButton::OnCommand	window/Button.cpp	/^void CButton::OnCommand(WPARAM wParam, LPARAM lParam)$/;"	f	class:CButton	signature:(WPARAM wParam, LPARAM lParam)
+CButton::OnCommand	window/Button.h	/^        virtual void OnCommand(WPARAM wParam, LPARAM lParam);$/;"	p	class:CButton	access:public	signature:(WPARAM wParam, LPARAM lParam)
+CButton::PreCreateWindow	window/Button.cpp	/^void CButton::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CButton	signature:(CREATEWINDOWPARAM& param)
+CButton::PreCreateWindow	window/Button.h	/^        virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CButton	access:public	signature:(CREATEWINDOWPARAM& param)
+CButton::~CButton	window/Button.cpp	/^CButton::~CButton()$/;"	f	class:CButton	signature:()
+CButton::~CButton	window/Button.h	/^        virtual ~CButton();$/;"	p	class:CButton	access:public	signature:()
+CComboBox	window/ComboBox.cpp	/^CComboBox::CComboBox()$/;"	f	class:CComboBox	signature:()
+CComboBox	window/ComboBox.h	/^        CComboBox();$/;"	p	class:CComboBox	access:public	signature:()
+CComboBox	window/ComboBox.h	/^class CComboBox : public CWindow$/;"	c	inherits:CWindow
+CComboBox::CComboBox	window/ComboBox.cpp	/^CComboBox::CComboBox()$/;"	f	class:CComboBox	signature:()
+CComboBox::CComboBox	window/ComboBox.h	/^        CComboBox();$/;"	p	class:CComboBox	access:public	signature:()
+CComboBox::PreCreateWindow	window/ComboBox.cpp	/^void CComboBox::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CComboBox	signature:(CREATEWINDOWPARAM& param)
+CComboBox::PreCreateWindow	window/ComboBox.h	/^        virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CComboBox	access:public	signature:(CREATEWINDOWPARAM& param)
+CComboBox::~CComboBox	window/ComboBox.cpp	/^CComboBox::~CComboBox()$/;"	f	class:CComboBox	signature:()
+CComboBox::~CComboBox	window/ComboBox.h	/^        virtual ~CComboBox();$/;"	p	class:CComboBox	access:public	signature:()
+CEdit	window/Edit.cpp	/^CEdit::CEdit() :$/;"	f	class:CEdit	signature:()
+CEdit	window/Edit.h	/^        CEdit();$/;"	p	class:CEdit	access:public	signature:()
+CEdit	window/Edit.h	/^class CEdit : public CWindow$/;"	c	inherits:CWindow
+CEdit::CEdit	window/Edit.cpp	/^CEdit::CEdit() :$/;"	f	class:CEdit	signature:()
+CEdit::CEdit	window/Edit.h	/^        CEdit();$/;"	p	class:CEdit	access:public	signature:()
+CEdit::GetText	window/Edit.cpp	/^LRESULT CEdit::GetText(LPTSTR buf, int len)$/;"	f	class:CEdit	signature:(LPTSTR buf, int len)
+CEdit::GetText	window/Edit.h	/^        virtual LRESULT GetText(LPTSTR buf, int len);$/;"	p	class:CEdit	access:public	signature:(LPTSTR buf, int len)
+CEdit::GetTextLength	window/Edit.cpp	/^LRESULT CEdit::GetTextLength(void)$/;"	f	class:CEdit	signature:(void)
+CEdit::GetTextLength	window/Edit.h	/^        virtual LRESULT GetTextLength(void);$/;"	p	class:CEdit	access:public	signature:(void)
+CEdit::PreCreateWindow	window/Edit.cpp	/^void CEdit::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CEdit	signature:(CREATEWINDOWPARAM& param)
+CEdit::PreCreateWindow	window/Edit.h	/^        virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CEdit	access:public	signature:(CREATEWINDOWPARAM& param)
+CEdit::SetMultiLine	window/Edit.cpp	/^void CEdit::SetMultiLine(bool multi)$/;"	f	class:CEdit	signature:(bool multi)
+CEdit::SetMultiLine	window/Edit.h	/^        virtual void    SetMultiLine(bool multi = true);$/;"	p	class:CEdit	access:public	signature:(bool multi = true)
+CEdit::SetText	window/Edit.cpp	/^void CEdit::SetText(LPCTSTR text)$/;"	f	class:CEdit	signature:(LPCTSTR text)
+CEdit::SetText	window/Edit.h	/^        virtual void    SetText(LPCTSTR text);$/;"	p	class:CEdit	access:public	signature:(LPCTSTR text)
+CEdit::m_multiline	window/Edit.h	/^        bool    m_multiline;$/;"	m	class:CEdit	access:private
+CEdit::~CEdit	window/Edit.cpp	/^CEdit::~CEdit()$/;"	f	class:CEdit	signature:()
+CEdit::~CEdit	window/Edit.h	/^        virtual ~CEdit();$/;"	p	class:CEdit	access:public	signature:()
+CPoint	window/Rect.h	/^        CPoint(){x = 0; y = 0;};$/;"	f	class:CPoint	access:public	signature:()
+CPoint	window/Rect.h	/^        CPoint(const CPoint& other){x = other.x; y = other.y;}$/;"	f	class:CPoint	access:public	signature:(const CPoint& other)
+CPoint	window/Rect.h	/^        CPoint(int x, int y){this->x = x; this->y = y;}$/;"	f	class:CPoint	access:public	signature:(int x, int y)
+CPoint	window/Rect.h	/^class CPoint    : public POINT$/;"	c	inherits:POINT
+CPoint::CPoint	window/Rect.h	/^        CPoint(){x = 0; y = 0;};$/;"	f	class:CPoint	access:public	signature:()
+CPoint::CPoint	window/Rect.h	/^        CPoint(const CPoint& other){x = other.x; y = other.y;}$/;"	f	class:CPoint	access:public	signature:(const CPoint& other)
+CPoint::CPoint	window/Rect.h	/^        CPoint(int x, int y){this->x = x; this->y = y;}$/;"	f	class:CPoint	access:public	signature:(int x, int y)
+CPoint::operator =	window/Rect.h	/^        CPoint& operator=(const CPoint& o)$/;"	f	class:CPoint	access:public	signature:(const CPoint& o)
+CPoint::~CPoint	window/Rect.h	/^        ~CPoint(){};$/;"	f	class:CPoint	access:public	signature:()
+CREATEWINDOWPARAM	window/Window.h	/^} CREATEWINDOWPARAM;$/;"	t	typeref:struct:tagCREATEWINDOWPARAM
+CRect	window/Rect.h	/^        CRect(){left = 0; top = 0; right = 0; bottom = 0;};$/;"	f	class:CRect	access:public	signature:()
+CRect	window/Rect.h	/^        CRect(CPoint& point, CSize& size)$/;"	f	class:CRect	access:public	signature:(CPoint& point, CSize& size)
+CRect	window/Rect.h	/^        CRect(const CRect& o){left = o.left; right = o.right; top = o.top; bottom = o.bottom;}$/;"	f	class:CRect	access:public	signature:(const CRect& o)
+CRect	window/Rect.h	/^        CRect(int left, int top, int width, int height)$/;"	f	class:CRect	access:public	signature:(int left, int top, int width, int height)
+CRect	window/Rect.h	/^class CRect     : public RECT$/;"	c	inherits:RECT
+CRect::CRect	window/Rect.h	/^        CRect(){left = 0; top = 0; right = 0; bottom = 0;};$/;"	f	class:CRect	access:public	signature:()
+CRect::CRect	window/Rect.h	/^        CRect(CPoint& point, CSize& size)$/;"	f	class:CRect	access:public	signature:(CPoint& point, CSize& size)
+CRect::CRect	window/Rect.h	/^        CRect(const CRect& o){left = o.left; right = o.right; top = o.top; bottom = o.bottom;}$/;"	f	class:CRect	access:public	signature:(const CRect& o)
+CRect::CRect	window/Rect.h	/^        CRect(int left, int top, int width, int height)$/;"	f	class:CRect	access:public	signature:(int left, int top, int width, int height)
+CRect::Height	window/Rect.h	/^        int Height(void){return bottom - top;}$/;"	f	class:CRect	access:public	signature:(void)
+CRect::PtInRect	window/Rect.h	/^        bool PtInRect(CPoint& pt){return (::PtInRect((RECT*)this, (POINT)pt) != FALSE);}$/;"	f	class:CRect	access:public	signature:(CPoint& pt)
+CRect::Width	window/Rect.h	/^        int Width(void){return right - left;}$/;"	f	class:CRect	access:public	signature:(void)
+CRect::operator =	window/Rect.h	/^        CRect& operator=(const CRect& o)$/;"	f	class:CRect	access:public	signature:(const CRect& o)
+CRect::~CRect	window/Rect.h	/^        ~CRect(){};$/;"	f	class:CRect	access:public	signature:()
+CSize	window/Rect.h	/^        CSize(){cx = 0; cy = 0;};$/;"	f	class:CSize	access:public	signature:()
+CSize	window/Rect.h	/^        CSize(const CSize& other){cx = other.cx; cy = other.cy;}$/;"	f	class:CSize	access:public	signature:(const CSize& other)
+CSize	window/Rect.h	/^        CSize(int cx, int cy){this->cx = cx; this->cy = cy;}$/;"	f	class:CSize	access:public	signature:(int cx, int cy)
+CSize	window/Rect.h	/^class CSize     : public SIZE$/;"	c	inherits:SIZE
+CSize::CSize	window/Rect.h	/^        CSize(){cx = 0; cy = 0;};$/;"	f	class:CSize	access:public	signature:()
+CSize::CSize	window/Rect.h	/^        CSize(const CSize& other){cx = other.cx; cy = other.cy;}$/;"	f	class:CSize	access:public	signature:(const CSize& other)
+CSize::CSize	window/Rect.h	/^        CSize(int cx, int cy){this->cx = cx; this->cy = cy;}$/;"	f	class:CSize	access:public	signature:(int cx, int cy)
+CSize::~CSize	window/Rect.h	/^        ~CSize(){};$/;"	f	class:CSize	access:public	signature:()
+CStatic	window/Static.cpp	/^CStatic::CStatic()$/;"	f	class:CStatic	signature:()
+CStatic	window/Static.h	/^    CStatic();$/;"	p	class:CStatic	access:public	signature:()
+CStatic	window/Static.h	/^class CStatic : public CWindow$/;"	c	inherits:CWindow
+CStatic::CStatic	window/Static.cpp	/^CStatic::CStatic()$/;"	f	class:CStatic	signature:()
+CStatic::CStatic	window/Static.h	/^    CStatic();$/;"	p	class:CStatic	access:public	signature:()
+CStatic::PreCreateWindow	window/Static.cpp	/^void CStatic::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CStatic	signature:(CREATEWINDOWPARAM& param)
+CStatic::PreCreateWindow	window/Static.h	/^    virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CStatic	access:public	signature:(CREATEWINDOWPARAM& param)
+CStatic::~CStatic	window/Static.cpp	/^CStatic::~CStatic()$/;"	f	class:CStatic	signature:()
+CStatic::~CStatic	window/Static.h	/^    virtual ~CStatic();$/;"	p	class:CStatic	access:public	signature:()
+CView	window/View.cpp	/^CView::CView()$/;"	f	class:CView	signature:()
+CView	window/View.h	/^    CView();$/;"	p	class:CView	access:public	signature:()
+CView	window/View.h	/^class CView     : public CWindow$/;"	c	inherits:CWindow
+CView::CView	window/View.cpp	/^CView::CView()$/;"	f	class:CView	signature:()
+CView::CView	window/View.h	/^    CView();$/;"	p	class:CView	access:public	signature:()
+CView::PreCreateWindow	window/View.cpp	/^void CView::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CView	signature:(CREATEWINDOWPARAM& param)
+CView::PreCreateWindow	window/View.h	/^    virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CView	access:public	signature:(CREATEWINDOWPARAM& param)
+CView::~CView	window/View.cpp	/^CView::~CView()$/;"	f	class:CView	signature:()
+CView::~CView	window/View.h	/^    virtual ~CView();$/;"	p	class:CView	access:public	signature:()
+CWindow	window/Window.cpp	/^CWindow::CWindow()$/;"	f	class:CWindow	signature:()
+CWindow	window/Window.h	/^        CWindow();$/;"	p	class:CWindow	access:public	signature:()
+CWindow	window/Window.h	/^class CWindow$/;"	c
+CWindow::BringWindowToTop	window/Window.cpp	/^void CWindow::BringWindowToTop(void)$/;"	f	class:CWindow	signature:(void)
+CWindow::BringWindowToTop	window/Window.h	/^        virtual void BringWindowToTop(void);$/;"	p	class:CWindow	access:public	signature:(void)
+CWindow::CWindow	window/Window.cpp	/^CWindow::CWindow()$/;"	f	class:CWindow	signature:()
+CWindow::CWindow	window/Window.h	/^        CWindow();$/;"	p	class:CWindow	access:public	signature:()
+CWindow::CenterWindow	window/Window.cpp	/^void CWindow::CenterWindow(ECENTER eCenter)$/;"	f	class:CWindow	signature:(ECENTER eCenter)
+CWindow::CenterWindow	window/Window.h	/^        virtual void CenterWindow(ECENTER eCenter = eCenter_Both);$/;"	p	class:CWindow	access:public	signature:(ECENTER eCenter = eCenter_Both)
+CWindow::Close	window/Window.cpp	/^void CWindow::Close(void)$/;"	f	class:CWindow	signature:(void)
+CWindow::Close	window/Window.h	/^        virtual void Close(void);$/;"	p	class:CWindow	access:public	signature:(void)
+CWindow::Create	window/Window.cpp	/^void CWindow::Create(CWindow * parent, CRect& rect, LPCTSTR title)$/;"	f	class:CWindow	signature:(CWindow * parent, CRect& rect, LPCTSTR title)
+CWindow::Create	window/Window.h	/^        virtual void Create(CWindow * parent, CRect& rect, LPCTSTR title = TEXT(""));$/;"	p	class:CWindow	access:public	signature:(CWindow * parent, CRect& rect, LPCTSTR title = TEXT(Ó))
+CWindow::ECENTER	window/Window.h	/^        } ECENTER;$/;"	t	class:CWindow	typeref:enum:CWindow::__anon2	access:public
+CWindow::EnableWindow	window/Window.cpp	/^BOOL CWindow::EnableWindow(BOOL bEnable)$/;"	f	class:CWindow	signature:(BOOL bEnable)
+CWindow::EnableWindow	window/Window.h	/^        virtual BOOL EnableWindow(BOOL bEnable = TRUE);$/;"	p	class:CWindow	access:public	signature:(BOOL bEnable = TRUE)
+CWindow::GetClientRect	window/Window.cpp	/^void CWindow::GetClientRect(CRect& rect)$/;"	f	class:CWindow	signature:(CRect& rect)
+CWindow::GetClientRect	window/Window.h	/^        virtual void GetClientRect(CRect& rect);$/;"	p	class:CWindow	access:public	signature:(CRect& rect)
+CWindow::GetFullScreenSize	window/Window.cpp	/^void CWindow::GetFullScreenSize(CSize& size)$/;"	f	class:CWindow	signature:(CSize& size)
+CWindow::GetFullScreenSize	window/Window.h	/^        virtual void GetFullScreenSize(CSize& size);$/;"	p	class:CWindow	access:public	signature:(CSize& size)
+CWindow::GetParent	window/Window.cpp	/^CWindow * CWindow::GetParent()$/;"	f	class:CWindow	signature:()
+CWindow::GetParent	window/Window.h	/^        virtual CWindow * GetParent();$/;"	p	class:CWindow	access:public	signature:()
+CWindow::GetRect	window/Window.cpp	/^CRect CWindow::GetRect()$/;"	f	class:CWindow	signature:()
+CWindow::GetRect	window/Window.h	/^        virtual CRect GetRect();$/;"	p	class:CWindow	access:public	signature:()
+CWindow::GetSafehWnd	window/Window.cpp	/^HWND CWindow::GetSafehWnd()$/;"	f	class:CWindow	signature:()
+CWindow::GetSafehWnd	window/Window.h	/^        virtual HWND GetSafehWnd();$/;"	p	class:CWindow	access:public	signature:()
+CWindow::GetScreenSize	window/Window.cpp	/^void CWindow::GetScreenSize(CSize& size)$/;"	f	class:CWindow	signature:(CSize& size)
+CWindow::GetScreenSize	window/Window.h	/^        virtual void GetScreenSize(CSize& size);$/;"	p	class:CWindow	access:public	signature:(CSize& size)
+CWindow::GetWindowRect	window/Window.cpp	/^void CWindow::GetWindowRect(CRect& rect)$/;"	f	class:CWindow	signature:(CRect& rect)
+CWindow::GetWindowRect	window/Window.h	/^        virtual void GetWindowRect(CRect& rect);$/;"	p	class:CWindow	access:public	signature:(CRect& rect)
+CWindow::GetWindowText	window/Window.cpp	/^int CWindow::GetWindowText(LPTSTR text, int length)$/;"	f	class:CWindow	signature:(LPTSTR text, int length)
+CWindow::GetWindowText	window/Window.h	/^        virtual int GetWindowText(LPTSTR text, int len);$/;"	p	class:CWindow	access:public	signature:(LPTSTR text, int len)
+CWindow::GetWindowTextLength	window/Window.cpp	/^int CWindow::GetWindowTextLength()$/;"	f	class:CWindow	signature:()
+CWindow::GetWindowTextLength	window/Window.h	/^        virtual int GetWindowTextLength(void);$/;"	p	class:CWindow	access:public	signature:(void)
+CWindow::Invalidate	window/Window.cpp	/^void CWindow::Invalidate(BOOL bErase)$/;"	f	class:CWindow	signature:(BOOL bErase)
+CWindow::Invalidate	window/Window.h	/^        virtual void Invalidate(BOOL bErase = TRUE);$/;"	p	class:CWindow	access:public	signature:(BOOL bErase = TRUE)
+CWindow::InvalidateRect	window/Window.cpp	/^void CWindow::InvalidateRect(CRect rect, BOOL bErase)$/;"	f	class:CWindow	signature:(CRect rect, BOOL bErase)
+CWindow::InvalidateRect	window/Window.h	/^        virtual void InvalidateRect(CRect rect, BOOL bErase = TRUE);$/;"	p	class:CWindow	access:public	signature:(CRect rect, BOOL bErase = TRUE)
+CWindow::IsVisible	window/Window.cpp	/^bool CWindow::IsVisible(void)$/;"	f	class:CWindow	signature:(void)
+CWindow::IsVisible	window/Window.h	/^        virtual bool IsVisible(void);$/;"	p	class:CWindow	access:public	signature:(void)
+CWindow::KillTimer	window/Window.cpp	/^void CWindow::KillTimer(unsigned int timerid)$/;"	f	class:CWindow	signature:(unsigned int timerid)
+CWindow::KillTimer	window/Window.h	/^        virtual void KillTimer(unsigned int timerid);$/;"	p	class:CWindow	access:public	signature:(unsigned int timerid)
+CWindow::MoveWindow	window/Window.cpp	/^void CWindow::MoveWindow(CRect rect, bool bRepaint)$/;"	f	class:CWindow	signature:(CRect rect, bool bRepaint)
+CWindow::MoveWindow	window/Window.cpp	/^void CWindow::MoveWindow(int x, int y, int w, int h, bool bRepaint)$/;"	f	class:CWindow	signature:(int x, int y, int w, int h, bool bRepaint)
+CWindow::MoveWindow	window/Window.h	/^        virtual void MoveWindow(CRect rect, bool bRepaint = true);$/;"	p	class:CWindow	access:public	signature:(CRect rect, bool bRepaint = true)
+CWindow::MoveWindow	window/Window.h	/^        virtual void MoveWindow(int x, int y, int w, int h, bool bRepaint = true);$/;"	p	class:CWindow	access:public	signature:(int x, int y, int w, int h, bool bRepaint = true)
+CWindow::MsgBox	window/Window.cpp	/^void CWindow::MsgBox(LPCTSTR text, LPCTSTR title, UINT flag)$/;"	f	class:CWindow	signature:(LPCTSTR text, LPCTSTR title, UINT flag)
+CWindow::MsgBox	window/Window.h	/^        virtual void MsgBox(LPCTSTR text, LPCTSTR title = TEXT("Message"), UINT flag = MB_OK | MB_ICONINFORMATION); $/;"	p	class:CWindow	access:public	signature:(LPCTSTR text, LPCTSTR title = TEXT(Ó), UINT flag = MB_OK | MB_ICONINFORMATION)
+CWindow::OnChar	window/Window.cpp	/^void CWindow::OnChar(int key, LPARAM lParam)$/;"	f	class:CWindow	signature:(int key, LPARAM lParam)
+CWindow::OnChar	window/Window.h	/^        virtual void OnChar(int key, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(int key, LPARAM lParam)
+CWindow::OnClick	window/Window.cpp	/^void CWindow::OnClick(int nButton, int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int nButton, int x, int y, int keyState)
+CWindow::OnClick	window/Window.h	/^        virtual void OnClick(int nButton, int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int nButton, int x, int y, int keyState)
+CWindow::OnClose	window/Window.cpp	/^void CWindow::OnClose()$/;"	f	class:CWindow	signature:()
+CWindow::OnClose	window/Window.h	/^        virtual void OnClose();$/;"	p	class:CWindow	access:public	signature:()
+CWindow::OnCommand	window/Window.cpp	/^void CWindow::OnCommand(WPARAM wParam, LPARAM lParam)$/;"	f	class:CWindow	signature:(WPARAM wParam, LPARAM lParam)
+CWindow::OnCommand	window/Window.h	/^        virtual void OnCommand(WPARAM wParam, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(WPARAM wParam, LPARAM lParam)
+CWindow::OnCreate	window/Window.cpp	/^void CWindow::OnCreate()$/;"	f	class:CWindow	signature:()
+CWindow::OnCreate	window/Window.h	/^        virtual void OnCreate();$/;"	p	class:CWindow	access:public	signature:()
+CWindow::OnDestroy	window/Window.cpp	/^void CWindow::OnDestroy()$/;"	f	class:CWindow	signature:()
+CWindow::OnDestroy	window/Window.h	/^        virtual void OnDestroy();$/;"	p	class:CWindow	access:public	signature:()
+CWindow::OnDoubleClick	window/Window.cpp	/^void CWindow::OnDoubleClick(int nButton, int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int nButton, int x, int y, int keyState)
+CWindow::OnDoubleClick	window/Window.h	/^        virtual void OnDoubleClick(int nButton, int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int nButton, int x, int y, int keyState)
+CWindow::OnEraseBackGround	window/Window.cpp	/^LRESULT CWindow::OnEraseBackGround(WPARAM wParam, LPARAM lParam)$/;"	f	class:CWindow	signature:(WPARAM wParam, LPARAM lParam)
+CWindow::OnEraseBackGround	window/Window.h	/^        virtual LRESULT OnEraseBackGround(WPARAM wParam, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(WPARAM wParam, LPARAM lParam)
+CWindow::OnGetMinMaxInfo	window/Window.cpp	/^void CWindow::OnGetMinMaxInfo(MINMAXINFO * lpmmi)$/;"	f	class:CWindow	signature:(MINMAXINFO * lpmmi)
+CWindow::OnGetMinMaxInfo	window/Window.h	/^        virtual void OnGetMinMaxInfo(MINMAXINFO * lpmmi);$/;"	p	class:CWindow	access:public	signature:(MINMAXINFO * lpmmi)
+CWindow::OnKeyDown	window/Window.cpp	/^void CWindow::OnKeyDown(int key, LPARAM lParam)$/;"	f	class:CWindow	signature:(int key, LPARAM lParam)
+CWindow::OnKeyDown	window/Window.h	/^        virtual void OnKeyDown(int key, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(int key, LPARAM lParam)
+CWindow::OnMouseDown	window/Window.cpp	/^void CWindow::OnMouseDown(int nButton, int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int nButton, int x, int y, int keyState)
+CWindow::OnMouseDown	window/Window.h	/^        virtual void OnMouseDown(int nButton, int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int nButton, int x, int y, int keyState)
+CWindow::OnMouseMove	window/Window.cpp	/^void CWindow::OnMouseMove(int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int x, int y, int keyState)
+CWindow::OnMouseMove	window/Window.h	/^        virtual void OnMouseMove(int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int x, int y, int keyState)
+CWindow::OnMouseUp	window/Window.cpp	/^void CWindow::OnMouseUp(int nButton, int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int nButton, int x, int y, int keyState)
+CWindow::OnMouseUp	window/Window.h	/^        virtual void OnMouseUp(int nButton, int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int nButton, int x, int y, int keyState)
+CWindow::OnPaint	window/Window.cpp	/^void CWindow::OnPaint(HDC hdc)$/;"	f	class:CWindow	signature:(HDC hdc)
+CWindow::OnPaint	window/Window.h	/^        virtual void OnPaint(HDC hdc);$/;"	p	class:CWindow	access:public	signature:(HDC hdc)
+CWindow::OnShow	window/Window.cpp	/^void CWindow::OnShow(bool bShow)$/;"	f	class:CWindow	signature:(bool bShow)
+CWindow::OnShow	window/Window.h	/^        virtual void OnShow(bool bShow);$/;"	p	class:CWindow	access:public	signature:(bool bShow)
+CWindow::OnSize	window/Window.cpp	/^void CWindow::OnSize(int w, int h)$/;"	f	class:CWindow	signature:(int w, int h)
+CWindow::OnSize	window/Window.h	/^        virtual void OnSize(int w, int h);$/;"	p	class:CWindow	access:public	signature:(int w, int h)
+CWindow::OnTimer	window/Window.cpp	/^void CWindow::OnTimer(int nTimerID)$/;"	f	class:CWindow	signature:(int nTimerID)
+CWindow::OnTimer	window/Window.h	/^        virtual void OnTimer(int nTimerID);$/;"	p	class:CWindow	access:public	signature:(int nTimerID)
+CWindow::PreCreateWindow	window/Window.cpp	/^void CWindow::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CWindow	signature:(CREATEWINDOWPARAM& param)
+CWindow::PreCreateWindow	window/Window.h	/^        virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CWindow	access:public	signature:(CREATEWINDOWPARAM& param)
+CWindow::PreTranslateMessage	window/Window.cpp	/^void CWindow::PreTranslateMessage(const MSG* msg)$/;"	f	class:CWindow	signature:(const MSG* msg)
+CWindow::PreTranslateMessage	window/Window.h	/^        virtual void PreTranslateMessage(const MSG* msg);$/;"	p	class:CWindow	access:public	signature:(const MSG* msg)
+CWindow::SendMessage	window/Window.cpp	/^LRESULT CWindow::SendMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)$/;"	f	class:CWindow	signature:(UINT uMsg, WPARAM wParam, LPARAM lParam)
+CWindow::SendMessage	window/Window.h	/^        virtual LRESULT SendMessage(UINT uMsg, WPARAM wParam, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(UINT uMsg, WPARAM wParam, LPARAM lParam)
+CWindow::SetTimer	window/Window.cpp	/^unsigned int CWindow::SetTimer(unsigned int uElapse, unsigned int timerID)$/;"	f	class:CWindow	signature:(unsigned int uElapse, unsigned int timerID)
+CWindow::SetTimer	window/Window.h	/^        virtual unsigned int  SetTimer(unsigned int uElapse, unsigned int timerID = 0);$/;"	p	class:CWindow	access:public	signature:(unsigned int uElapse, unsigned int timerID = 0)
+CWindow::SetWindowText	window/Window.cpp	/^void CWindow::SetWindowText(LPCTSTR text)$/;"	f	class:CWindow	signature:(LPCTSTR text)
+CWindow::SetWindowText	window/Window.h	/^        virtual void SetWindowText(LPCTSTR text);$/;"	p	class:CWindow	access:public	signature:(LPCTSTR text)
+CWindow::Show	window/Window.cpp	/^void CWindow::Show(bool bShow)$/;"	f	class:CWindow	signature:(bool bShow)
+CWindow::Show	window/Window.h	/^        virtual void Show(bool bShow = true);$/;"	p	class:CWindow	access:public	signature:(bool bShow = true)
+CWindow::WindowProc	window/Window.cpp	/^LRESULT CWindow::WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)$/;"	f	class:CWindow	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+CWindow::WindowProc	window/Window.h	/^        virtual LRESULT WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+CWindow::doModal	window/Window.cpp	/^int CWindow::doModal(void)$/;"	f	class:CWindow	signature:(void)
+CWindow::doModal	window/Window.h	/^        virtual int  doModal(void);$/;"	p	class:CWindow	access:public	signature:(void)
+CWindow::eCenter_Both	window/Window.h	/^                eCenter_Both, eCenter_Horizontal, eCenter_Vertical,$/;"	e	enum:CWindow::__anon2
+CWindow::eCenter_Horizontal	window/Window.h	/^                eCenter_Both, eCenter_Horizontal, eCenter_Vertical,$/;"	e	enum:CWindow::__anon2
+CWindow::eCenter_Vertical	window/Window.h	/^                eCenter_Both, eCenter_Horizontal, eCenter_Vertical,$/;"	e	enum:CWindow::__anon2
+CWindow::m_CreateParam	window/Window.h	/^        CREATEWINDOWPARAM m_CreateParam;$/;"	m	class:CWindow	access:private
+CWindow::m_IsModal	window/Window.h	/^        bool    m_IsModal;$/;"	m	class:CWindow	access:private
+CWindow::m_Modaling	window/Window.h	/^        bool    m_Modaling;$/;"	m	class:CWindow	access:private
+CWindow::m_hInstance	window/Window.h	/^        static HINSTANCE m_hInstance;$/;"	m	class:CWindow	access:private
+CWindow::m_hWnd	window/Window.h	/^        HWND m_hWnd;$/;"	m	class:CWindow	access:private
+CWindow::~CWindow	window/Window.cpp	/^CWindow::~CWindow()$/;"	f	class:CWindow	signature:()
+CWindow::~CWindow	window/Window.h	/^        virtual ~CWindow();$/;"	p	class:CWindow	access:public	signature:()
+CXX	Makefile	/^CXX	:= i586-mingw32msvc-g++$/;"	m
+CXX	window/Makefile	/^CXX	:= i586-mingw32msvc-g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS := -Wall -O2 -Werror$/;"	m
+CXXFLAGS	window/Makefile	/^CXXFLAGS := -Wall -O2 -Werror$/;"	m
+CenterWindow	window/Window.cpp	/^void CWindow::CenterWindow(ECENTER eCenter)$/;"	f	class:CWindow	signature:(ECENTER eCenter)
+CenterWindow	window/Window.h	/^        virtual void CenterWindow(ECENTER eCenter = eCenter_Both);$/;"	p	class:CWindow	access:public	signature:(ECENTER eCenter = eCenter_Both)
+Close	window/Window.cpp	/^void CWindow::Close(void)$/;"	f	class:CWindow	signature:(void)
+Close	window/Window.h	/^        virtual void Close(void);$/;"	p	class:CWindow	access:public	signature:(void)
+Create	window/Window.cpp	/^void CWindow::Create(CWindow * parent, CRect& rect, LPCTSTR title)$/;"	f	class:CWindow	signature:(CWindow * parent, CRect& rect, LPCTSTR title)
+Create	window/Window.h	/^        virtual void Create(CWindow * parent, CRect& rect, LPCTSTR title = TEXT(""));$/;"	p	class:CWindow	access:public	signature:(CWindow * parent, CRect& rect, LPCTSTR title = TEXT(Ó))
+DEPS	Makefile	/^DEPS := $(SOURCES:.cc=.d)$/;"	m
+DealWatcher	game_window.h	/^        DealWatcher() : PacketDispatcher::Watcher(Packet::ID_DEAL) {}$/;"	f	class:GameWindow::DealWatcher	access:public	signature:()
+DealWatcher	game_window.h	/^    class DealWatcher: public PacketDispatcher::Watcher {$/;"	c	class:GameWindow	inherits:PacketDispatcher::Watcher	access:private
+Dispatch	packet_dispatcher.cc	/^void PacketDispatcher::Dispatch(const void * data, int len)$/;"	f	class:PacketDispatcher	signature:(const void * data, int len)
+Dispatch	packet_dispatcher.h	/^    void Dispatch(const void * data, int len = 0);$/;"	p	class:PacketDispatcher	access:public	signature:(const void * data, int len = 0)
+ECENTER	window/Window.h	/^        } ECENTER;$/;"	t	class:CWindow	typeref:enum:CWindow::__anon2	access:public
+EMSG	getopt.cc	/^static char    EMSG[1] = {0};$/;"	v	file:
+EnableWindow	window/Window.cpp	/^BOOL CWindow::EnableWindow(BOOL bEnable)$/;"	f	class:CWindow	signature:(BOOL bEnable)
+EnableWindow	window/Window.h	/^        virtual BOOL EnableWindow(BOOL bEnable = TRUE);$/;"	p	class:CWindow	access:public	signature:(BOOL bEnable = TRUE)
+FindWindowByHWND	window/WndProc.cpp	/^CWindow *   FindWindowByHWND(HWND hWnd)$/;"	f	signature:(HWND hWnd)
+FindWindowByHWND	window/WndProc.h	/^CWindow *   FindWindowByHWND(HWND hWnd);$/;"	p	signature:(HWND hWnd)
+GameApp	game.h	/^class GameApp : public CApp {$/;"	c	inherits:CApp
+GameApp::Init	game.cc	/^void GameApp::Init()$/;"	f	class:GameApp	signature:()
+GameApp::Init	game.h	/^    void Init();$/;"	p	class:GameApp	access:public	signature:()
+GameApp::m_window	game.h	/^    GameWindow * m_window;$/;"	m	class:GameApp	access:private
+GameStartPacketWatcher	connect.cc	/^    GameStartPacketWatcher() : PacketDispatcher::Watcher(Packet::ID_GAMESTART) {}$/;"	f	class:__anon1::GameStartPacketWatcher	access:public	signature:()
+GameStartPacketWatcher	connect.cc	/^class GameStartPacketWatcher : public PacketDispatcher::Watcher {$/;"	c	namespace:__anon1	file:	inherits:PacketDispatcher::Watcher
+GameWindow	game_window.cc	/^GameWindow::GameWindow()$/;"	f	class:GameWindow	signature:()
+GameWindow	game_window.h	/^    GameWindow();$/;"	p	class:GameWindow	access:public	signature:()
+GameWindow	game_window.h	/^class GameWindow : public CWindow {$/;"	c	inherits:CWindow
+GameWindow::DealWatcher	game_window.h	/^    class DealWatcher: public PacketDispatcher::Watcher {$/;"	c	class:GameWindow	inherits:PacketDispatcher::Watcher	access:private
+GameWindow::DealWatcher::DealWatcher	game_window.h	/^        DealWatcher() : PacketDispatcher::Watcher(Packet::ID_DEAL) {}$/;"	f	class:GameWindow::DealWatcher	access:public	signature:()
+GameWindow::DealWatcher::ParsePacket	game_window.cc	/^void GameWindow::DealWatcher::ParsePacket(CArchive& ar)$/;"	f	class:GameWindow::DealWatcher	signature:(CArchive& ar)
+GameWindow::DealWatcher::ParsePacket	game_window.h	/^        virtual void ParsePacket(CArchive& ar);$/;"	p	class:GameWindow::DealWatcher	access:public	signature:(CArchive& ar)
+GameWindow::GameWindow	game_window.cc	/^GameWindow::GameWindow()$/;"	f	class:GameWindow	signature:()
+GameWindow::GameWindow	game_window.h	/^    GameWindow();$/;"	p	class:GameWindow	access:public	signature:()
+GameWindow::HelloWatcher	game_window.h	/^    class HelloWatcher : public PacketDispatcher::Watcher {$/;"	c	class:GameWindow	inherits:PacketDispatcher::Watcher	access:private
+GameWindow::HelloWatcher::HelloWatcher	game_window.h	/^        HelloWatcher() : PacketDispatcher::Watcher(Packet::ID_HELLO) {}$/;"	f	class:GameWindow::HelloWatcher	access:public	signature:()
+GameWindow::HelloWatcher::ParsePacket	game_window.cc	/^void GameWindow::HelloWatcher::ParsePacket(CArchive& ar)$/;"	f	class:GameWindow::HelloWatcher	signature:(CArchive& ar)
+GameWindow::HelloWatcher::ParsePacket	game_window.h	/^        virtual void ParsePacket(CArchive& ar);$/;"	p	class:GameWindow::HelloWatcher	access:public	signature:(CArchive& ar)
+GameWindow::MessageWatcher	game_window.h	/^    class MessageWatcher: public PacketDispatcher::Watcher {$/;"	c	class:GameWindow	inherits:PacketDispatcher::Watcher	access:private
+GameWindow::MessageWatcher::MessageWatcher	game_window.h	/^        MessageWatcher() : PacketDispatcher::Watcher(Packet::ID_MESSAGE) {}$/;"	f	class:GameWindow::MessageWatcher	access:public	signature:()
+GameWindow::MessageWatcher::ParsePacket	game_window.cc	/^void GameWindow::MessageWatcher::ParsePacket(CArchive& ar)$/;"	f	class:GameWindow::MessageWatcher	signature:(CArchive& ar)
+GameWindow::MessageWatcher::ParsePacket	game_window.h	/^        virtual void ParsePacket(CArchive& ar);$/;"	p	class:GameWindow::MessageWatcher	access:public	signature:(CArchive& ar)
+GameWindow::OnClose	game_window.cc	/^void GameWindow::OnClose()$/;"	f	class:GameWindow	signature:()
+GameWindow::OnClose	game_window.h	/^    virtual void OnClose();$/;"	p	class:GameWindow	access:public	signature:()
+GameWindow::OnCreate	game_window.cc	/^void GameWindow::OnCreate()$/;"	f	class:GameWindow	signature:()
+GameWindow::OnCreate	game_window.h	/^    virtual void OnCreate();$/;"	p	class:GameWindow	access:public	signature:()
+GameWindow::OnDataReceived	game_window.cc	/^void GameWindow::OnDataReceived(void)$/;"	f	class:GameWindow	signature:(void)
+GameWindow::OnDataReceived	game_window.h	/^    void OnDataReceived(void);$/;"	p	class:GameWindow	access:public	signature:(void)
+GameWindow::OnServerDown	game_window.cc	/^void GameWindow::OnServerDown(void)$/;"	f	class:GameWindow	signature:(void)
+GameWindow::OnServerDown	game_window.h	/^    void OnServerDown(void);$/;"	p	class:GameWindow	access:public	signature:(void)
+GameWindow::ServerInfoWatcher	game_window.h	/^    class ServerInfoWatcher: public PacketDispatcher::Watcher {$/;"	c	class:GameWindow	inherits:PacketDispatcher::Watcher	access:private
+GameWindow::ServerInfoWatcher::ParsePacket	game_window.cc	/^void GameWindow::ServerInfoWatcher::ParsePacket(CArchive& ar)$/;"	f	class:GameWindow::ServerInfoWatcher	signature:(CArchive& ar)
+GameWindow::ServerInfoWatcher::ParsePacket	game_window.h	/^        virtual void ParsePacket(CArchive& ar);$/;"	p	class:GameWindow::ServerInfoWatcher	access:public	signature:(CArchive& ar)
+GameWindow::ServerInfoWatcher::ServerInfoWatcher	game_window.h	/^        ServerInfoWatcher() : PacketDispatcher::Watcher(Packet::ID_SERVERINFO) {}$/;"	f	class:GameWindow::ServerInfoWatcher	access:public	signature:()
+GameWindow::WindowProc	game_window.cc	/^LRESULT GameWindow::WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)$/;"	f	class:GameWindow	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+GameWindow::WindowProc	game_window.h	/^    virtual LRESULT WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);$/;"	p	class:GameWindow	access:public	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+GameWindow::deal_watcher_	game_window.h	/^    DealWatcher         deal_watcher_;$/;"	m	class:GameWindow	access:private
+GameWindow::hello_watcher_	game_window.h	/^    HelloWatcher        hello_watcher_;$/;"	m	class:GameWindow	access:private
+GameWindow::message_watcher_	game_window.h	/^    MessageWatcher      message_watcher_;$/;"	m	class:GameWindow	access:private
+GameWindow::packet_dispatcher_	game_window.h	/^    PacketDispatcher    packet_dispatcher_;$/;"	m	class:GameWindow	access:private
+GameWindow::server_watcher_	game_window.h	/^    ServerInfoWatcher   server_watcher_;$/;"	m	class:GameWindow	access:private
+GameWindow::~GameWindow	game_window.cc	/^GameWindow::~GameWindow()$/;"	f	class:GameWindow	signature:()
+GameWindow::~GameWindow	game_window.h	/^    virtual ~GameWindow();$/;"	p	class:GameWindow	access:public	signature:()
+GetApp	window/App.cpp	/^CApp * GetApp()$/;"	f	signature:()
+GetApp	window/App.h	/^CApp * GetApp();$/;"	p	signature:()
+GetClientRect	window/Window.cpp	/^void CWindow::GetClientRect(CRect& rect)$/;"	f	class:CWindow	signature:(CRect& rect)
+GetClientRect	window/Window.h	/^        virtual void GetClientRect(CRect& rect);$/;"	p	class:CWindow	access:public	signature:(CRect& rect)
+GetFullScreenSize	window/Window.cpp	/^void CWindow::GetFullScreenSize(CSize& size)$/;"	f	class:CWindow	signature:(CSize& size)
+GetFullScreenSize	window/Window.h	/^        virtual void GetFullScreenSize(CSize& size);$/;"	p	class:CWindow	access:public	signature:(CSize& size)
+GetGameStartPacket	info.cc	/^GameStartPacket* GetGameStartPacket(void)$/;"	f	namespace:game_info	signature:(void)
+GetGameStartPacket	info.h	/^GameStartPacket* GetGameStartPacket(void);$/;"	p	namespace:game_info	signature:(void)
+GetMainSocket	info.cc	/^tools::CSocket&  GetMainSocket(void)$/;"	f	namespace:game_info	signature:(void)
+GetMainSocket	info.h	/^tools::CSocket&  GetMainSocket(void);$/;"	p	namespace:game_info	signature:(void)
+GetParent	window/Window.cpp	/^CWindow * CWindow::GetParent()$/;"	f	class:CWindow	signature:()
+GetParent	window/Window.h	/^        virtual CWindow * GetParent();$/;"	p	class:CWindow	access:public	signature:()
+GetPlayerName	info.cc	/^std::string GetPlayerName(void)$/;"	f	namespace:game_info	signature:(void)
+GetPlayerName	info.h	/^std::string GetPlayerName(void);$/;"	p	namespace:game_info	signature:(void)
+GetRect	window/Window.cpp	/^CRect CWindow::GetRect()$/;"	f	class:CWindow	signature:()
+GetRect	window/Window.h	/^        virtual CRect GetRect();$/;"	p	class:CWindow	access:public	signature:()
+GetSafehWnd	window/Window.cpp	/^HWND CWindow::GetSafehWnd()$/;"	f	class:CWindow	signature:()
+GetSafehWnd	window/Window.h	/^        virtual HWND GetSafehWnd();$/;"	p	class:CWindow	access:public	signature:()
+GetScreenSize	window/Window.cpp	/^void CWindow::GetScreenSize(CSize& size)$/;"	f	class:CWindow	signature:(CSize& size)
+GetScreenSize	window/Window.h	/^        virtual void GetScreenSize(CSize& size);$/;"	p	class:CWindow	access:public	signature:(CSize& size)
+GetText	window/Edit.cpp	/^LRESULT CEdit::GetText(LPTSTR buf, int len)$/;"	f	class:CEdit	signature:(LPTSTR buf, int len)
+GetText	window/Edit.h	/^        virtual LRESULT GetText(LPTSTR buf, int len);$/;"	p	class:CEdit	access:public	signature:(LPTSTR buf, int len)
+GetTextLength	window/Edit.cpp	/^LRESULT CEdit::GetTextLength(void)$/;"	f	class:CEdit	signature:(void)
+GetTextLength	window/Edit.h	/^        virtual LRESULT GetTextLength(void);$/;"	p	class:CEdit	access:public	signature:(void)
+GetVersion	window/App.cpp	/^DWORD CApp::GetVersion(LPCTSTR lpszDllName)  $/;"	f	class:CApp	signature:(LPCTSTR lpszDllName)
+GetVersion	window/App.h	/^        DWORD GetVersion(LPCTSTR lpszDllName);$/;"	p	class:CApp	access:public	signature:(LPCTSTR lpszDllName)
+GetWindowRect	window/Window.cpp	/^void CWindow::GetWindowRect(CRect& rect)$/;"	f	class:CWindow	signature:(CRect& rect)
+GetWindowRect	window/Window.h	/^        virtual void GetWindowRect(CRect& rect);$/;"	p	class:CWindow	access:public	signature:(CRect& rect)
+GetWindowText	window/Window.cpp	/^int CWindow::GetWindowText(LPTSTR text, int length)$/;"	f	class:CWindow	signature:(LPTSTR text, int length)
+GetWindowText	window/Window.h	/^        virtual int GetWindowText(LPTSTR text, int len);$/;"	p	class:CWindow	access:public	signature:(LPTSTR text, int len)
+GetWindowTextLength	window/Window.cpp	/^int CWindow::GetWindowTextLength()$/;"	f	class:CWindow	signature:()
+GetWindowTextLength	window/Window.h	/^        virtual int GetWindowTextLength(void);$/;"	p	class:CWindow	access:public	signature:(void)
+Height	window/Rect.h	/^        int Height(void){return bottom - top;}$/;"	f	class:CRect	access:public	signature:(void)
+HelloPacketWatcher	connect.cc	/^    HelloPacketWatcher() : PacketDispatcher::Watcher(Packet::ID_HELLO) {}$/;"	f	class:__anon1::HelloPacketWatcher	access:public	signature:()
+HelloPacketWatcher	connect.cc	/^class HelloPacketWatcher : public PacketDispatcher::Watcher {$/;"	c	namespace:__anon1	file:	inherits:PacketDispatcher::Watcher
+HelloWatcher	game_window.h	/^        HelloWatcher() : PacketDispatcher::Watcher(Packet::ID_HELLO) {}$/;"	f	class:GameWindow::HelloWatcher	access:public	signature:()
+HelloWatcher	game_window.h	/^    class HelloWatcher : public PacketDispatcher::Watcher {$/;"	c	class:GameWindow	inherits:PacketDispatcher::Watcher	access:private
+ICCEX	window/App.cpp	/^} ICCEX;$/;"	t	typeref:struct:tagICCEX	file:
+IGNORE_FIRST	getopt.cc	19;"	d	file:
+INCLUDES	Makefile	/^INCLUDES = -I..\/common -I..\/log$/;"	m
+INCLUDES	window/Makefile	/^INCLUDES = $/;"	m
+INORDER	getopt.cc	33;"	d	file:
+IN_ORDER	getopt.cc	27;"	d	file:
+IS_POSIXLY_CORRECT	getopt.cc	24;"	d	file:
+Init	game.cc	/^void GameApp::Init()$/;"	f	class:GameApp	signature:()
+Init	game.h	/^    void Init();$/;"	p	class:GameApp	access:public	signature:()
+Init	window/App.cpp	/^void CApp::Init()$/;"	f	class:CApp	signature:()
+Init	window/App.h	/^        virtual void    Init(void);$/;"	p	class:CApp	access:public	signature:(void)
+Invalidate	window/Window.cpp	/^void CWindow::Invalidate(BOOL bErase)$/;"	f	class:CWindow	signature:(BOOL bErase)
+Invalidate	window/Window.h	/^        virtual void Invalidate(BOOL bErase = TRUE);$/;"	p	class:CWindow	access:public	signature:(BOOL bErase = TRUE)
+InvalidateRect	window/Window.cpp	/^void CWindow::InvalidateRect(CRect rect, BOOL bErase)$/;"	f	class:CWindow	signature:(CRect rect, BOOL bErase)
+InvalidateRect	window/Window.h	/^        virtual void InvalidateRect(CRect rect, BOOL bErase = TRUE);$/;"	p	class:CWindow	access:public	signature:(CRect rect, BOOL bErase = TRUE)
+IsVisible	window/Window.cpp	/^bool CWindow::IsVisible(void)$/;"	f	class:CWindow	signature:(void)
+IsVisible	window/Window.h	/^        virtual bool IsVisible(void);$/;"	p	class:CWindow	access:public	signature:(void)
+KillTimer	window/Window.cpp	/^void CWindow::KillTimer(unsigned int timerid)$/;"	f	class:CWindow	signature:(unsigned int timerid)
+KillTimer	window/Window.h	/^        virtual void KillTimer(unsigned int timerid);$/;"	p	class:CWindow	access:public	signature:(unsigned int timerid)
+LD	Makefile	/^LD	:= i586-mingw32msvc-g++$/;"	m
+LD	window/Makefile	/^LD	:= i586-mingw32msvc-g++$/;"	m
+LIBS	Makefile	/^LIBS	= -lws2_32 -lgdi32 -lcomctl32$/;"	m
+LIBS	window/Makefile	/^LIBS	= -lwindow -lgdi32 -luser32 -lws2_32 -lcomctl32$/;"	m
+LINKS	Makefile	/^LINKS	= -L.$/;"	m
+LINKS	window/Makefile	/^LINKS	= -L.$/;"	m
+LPFNICCEXPROC	window/App.cpp	/^typedef BOOL (WINAPI * LPFNICCEXPROC)(ICCEX *);$/;"	t	file:
+LockCreate	window/WndProc.h	/^void LockCreate();$/;"	p	signature:()
+MessageWatcher	game_window.h	/^        MessageWatcher() : PacketDispatcher::Watcher(Packet::ID_MESSAGE) {}$/;"	f	class:GameWindow::MessageWatcher	access:public	signature:()
+MessageWatcher	game_window.h	/^    class MessageWatcher: public PacketDispatcher::Watcher {$/;"	c	class:GameWindow	inherits:PacketDispatcher::Watcher	access:private
+MoveWindow	window/Window.cpp	/^void CWindow::MoveWindow(CRect rect, bool bRepaint)$/;"	f	class:CWindow	signature:(CRect rect, bool bRepaint)
+MoveWindow	window/Window.cpp	/^void CWindow::MoveWindow(int x, int y, int w, int h, bool bRepaint)$/;"	f	class:CWindow	signature:(int x, int y, int w, int h, bool bRepaint)
+MoveWindow	window/Window.h	/^        virtual void MoveWindow(CRect rect, bool bRepaint = true);$/;"	p	class:CWindow	access:public	signature:(CRect rect, bool bRepaint = true)
+MoveWindow	window/Window.h	/^        virtual void MoveWindow(int x, int y, int w, int h, bool bRepaint = true);$/;"	p	class:CWindow	access:public	signature:(int x, int y, int w, int h, bool bRepaint = true)
+MsgBox	window/Window.cpp	/^void CWindow::MsgBox(LPCTSTR text, LPCTSTR title, UINT flag)$/;"	f	class:CWindow	signature:(LPCTSTR text, LPCTSTR title, UINT flag)
+MsgBox	window/Window.h	/^        virtual void MsgBox(LPCTSTR text, LPCTSTR title = TEXT("Message"), UINT flag = MB_OK | MB_ICONINFORMATION); $/;"	p	class:CWindow	access:public	signature:(LPCTSTR text, LPCTSTR title = TEXT(Ó), UINT flag = MB_OK | MB_ICONINFORMATION)
+OBJS	Makefile	/^OBJS := $(SOURCES:.cc=.obj)$/;"	m
+OBJS	window/Makefile	/^OBJS	=	App.o		\\$/;"	m
+OnChar	window/Window.cpp	/^void CWindow::OnChar(int key, LPARAM lParam)$/;"	f	class:CWindow	signature:(int key, LPARAM lParam)
+OnChar	window/Window.h	/^        virtual void OnChar(int key, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(int key, LPARAM lParam)
+OnClick	window/Button.cpp	/^void CButton::OnClick()$/;"	f	class:CButton	signature:()
+OnClick	window/Button.h	/^        virtual void OnClick();$/;"	p	class:CButton	access:public	signature:()
+OnClick	window/Window.cpp	/^void CWindow::OnClick(int nButton, int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int nButton, int x, int y, int keyState)
+OnClick	window/Window.h	/^        virtual void OnClick(int nButton, int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int nButton, int x, int y, int keyState)
+OnClose	game_window.cc	/^void GameWindow::OnClose()$/;"	f	class:GameWindow	signature:()
+OnClose	game_window.h	/^    virtual void OnClose();$/;"	p	class:GameWindow	access:public	signature:()
+OnClose	window/Window.cpp	/^void CWindow::OnClose()$/;"	f	class:CWindow	signature:()
+OnClose	window/Window.h	/^        virtual void OnClose();$/;"	p	class:CWindow	access:public	signature:()
+OnCommand	window/Button.cpp	/^void CButton::OnCommand(WPARAM wParam, LPARAM lParam)$/;"	f	class:CButton	signature:(WPARAM wParam, LPARAM lParam)
+OnCommand	window/Button.h	/^        virtual void OnCommand(WPARAM wParam, LPARAM lParam);$/;"	p	class:CButton	access:public	signature:(WPARAM wParam, LPARAM lParam)
+OnCommand	window/Window.cpp	/^void CWindow::OnCommand(WPARAM wParam, LPARAM lParam)$/;"	f	class:CWindow	signature:(WPARAM wParam, LPARAM lParam)
+OnCommand	window/Window.h	/^        virtual void OnCommand(WPARAM wParam, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(WPARAM wParam, LPARAM lParam)
+OnCreate	game_window.cc	/^void GameWindow::OnCreate()$/;"	f	class:GameWindow	signature:()
+OnCreate	game_window.h	/^    virtual void OnCreate();$/;"	p	class:GameWindow	access:public	signature:()
+OnCreate	window/Window.cpp	/^void CWindow::OnCreate()$/;"	f	class:CWindow	signature:()
+OnCreate	window/Window.h	/^        virtual void OnCreate();$/;"	p	class:CWindow	access:public	signature:()
+OnDataReceived	game_window.cc	/^void GameWindow::OnDataReceived(void)$/;"	f	class:GameWindow	signature:(void)
+OnDataReceived	game_window.h	/^    void OnDataReceived(void);$/;"	p	class:GameWindow	access:public	signature:(void)
+OnDestroy	window/Window.cpp	/^void CWindow::OnDestroy()$/;"	f	class:CWindow	signature:()
+OnDestroy	window/Window.h	/^        virtual void OnDestroy();$/;"	p	class:CWindow	access:public	signature:()
+OnDoubleClick	window/Window.cpp	/^void CWindow::OnDoubleClick(int nButton, int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int nButton, int x, int y, int keyState)
+OnDoubleClick	window/Window.h	/^        virtual void OnDoubleClick(int nButton, int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int nButton, int x, int y, int keyState)
+OnEraseBackGround	window/Window.cpp	/^LRESULT CWindow::OnEraseBackGround(WPARAM wParam, LPARAM lParam)$/;"	f	class:CWindow	signature:(WPARAM wParam, LPARAM lParam)
+OnEraseBackGround	window/Window.h	/^        virtual LRESULT OnEraseBackGround(WPARAM wParam, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(WPARAM wParam, LPARAM lParam)
+OnGetMinMaxInfo	window/Window.cpp	/^void CWindow::OnGetMinMaxInfo(MINMAXINFO * lpmmi)$/;"	f	class:CWindow	signature:(MINMAXINFO * lpmmi)
+OnGetMinMaxInfo	window/Window.h	/^        virtual void OnGetMinMaxInfo(MINMAXINFO * lpmmi);$/;"	p	class:CWindow	access:public	signature:(MINMAXINFO * lpmmi)
+OnKeyDown	window/Window.cpp	/^void CWindow::OnKeyDown(int key, LPARAM lParam)$/;"	f	class:CWindow	signature:(int key, LPARAM lParam)
+OnKeyDown	window/Window.h	/^        virtual void OnKeyDown(int key, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(int key, LPARAM lParam)
+OnMouseDown	window/Window.cpp	/^void CWindow::OnMouseDown(int nButton, int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int nButton, int x, int y, int keyState)
+OnMouseDown	window/Window.h	/^        virtual void OnMouseDown(int nButton, int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int nButton, int x, int y, int keyState)
+OnMouseMove	window/Window.cpp	/^void CWindow::OnMouseMove(int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int x, int y, int keyState)
+OnMouseMove	window/Window.h	/^        virtual void OnMouseMove(int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int x, int y, int keyState)
+OnMouseUp	window/Window.cpp	/^void CWindow::OnMouseUp(int nButton, int x, int y, int keyState)$/;"	f	class:CWindow	signature:(int nButton, int x, int y, int keyState)
+OnMouseUp	window/Window.h	/^        virtual void OnMouseUp(int nButton, int x, int y, int keyState);$/;"	p	class:CWindow	access:public	signature:(int nButton, int x, int y, int keyState)
+OnPaint	window/Window.cpp	/^void CWindow::OnPaint(HDC hdc)$/;"	f	class:CWindow	signature:(HDC hdc)
+OnPaint	window/Window.h	/^        virtual void OnPaint(HDC hdc);$/;"	p	class:CWindow	access:public	signature:(HDC hdc)
+OnServerDown	game_window.cc	/^void GameWindow::OnServerDown(void)$/;"	f	class:GameWindow	signature:(void)
+OnServerDown	game_window.h	/^    void OnServerDown(void);$/;"	p	class:GameWindow	access:public	signature:(void)
+OnShow	window/Window.cpp	/^void CWindow::OnShow(bool bShow)$/;"	f	class:CWindow	signature:(bool bShow)
+OnShow	window/Window.h	/^        virtual void OnShow(bool bShow);$/;"	p	class:CWindow	access:public	signature:(bool bShow)
+OnSize	window/Window.cpp	/^void CWindow::OnSize(int w, int h)$/;"	f	class:CWindow	signature:(int w, int h)
+OnSize	window/Window.h	/^        virtual void OnSize(int w, int h);$/;"	p	class:CWindow	access:public	signature:(int w, int h)
+OnTimer	window/Window.cpp	/^void CWindow::OnTimer(int nTimerID)$/;"	f	class:CWindow	signature:(int nTimerID)
+OnTimer	window/Window.h	/^        virtual void OnTimer(int nTimerID);$/;"	p	class:CWindow	access:public	signature:(int nTimerID)
+PERMUTE	getopt.cc	25;"	d	file:
+PRINT_ERROR	getopt.cc	20;"	d	file:
+PacketDispatcher	packet_dispatcher.cc	/^PacketDispatcher::PacketDispatcher()$/;"	f	class:PacketDispatcher	signature:()
+PacketDispatcher	packet_dispatcher.h	/^    PacketDispatcher();$/;"	p	class:PacketDispatcher	access:public	signature:()
+PacketDispatcher	packet_dispatcher.h	/^class PacketDispatcher : public PacketParser {$/;"	c	inherits:PacketParser
+PacketDispatcher::AddWatcher	packet_dispatcher.cc	/^void PacketDispatcher::AddWatcher(Watcher* watcher)$/;"	f	class:PacketDispatcher	signature:(Watcher* watcher)
+PacketDispatcher::AddWatcher	packet_dispatcher.h	/^    void AddWatcher(Watcher* watcher);$/;"	p	class:PacketDispatcher	access:public	signature:(Watcher* watcher)
+PacketDispatcher::Dispatch	packet_dispatcher.cc	/^void PacketDispatcher::Dispatch(const void * data, int len)$/;"	f	class:PacketDispatcher	signature:(const void * data, int len)
+PacketDispatcher::Dispatch	packet_dispatcher.h	/^    void Dispatch(const void * data, int len = 0);$/;"	p	class:PacketDispatcher	access:public	signature:(const void * data, int len = 0)
+PacketDispatcher::PacketDispatcher	packet_dispatcher.cc	/^PacketDispatcher::PacketDispatcher()$/;"	f	class:PacketDispatcher	signature:()
+PacketDispatcher::PacketDispatcher	packet_dispatcher.h	/^    PacketDispatcher();$/;"	p	class:PacketDispatcher	access:public	signature:()
+PacketDispatcher::RemoveWatcher	packet_dispatcher.cc	/^void PacketDispatcher::RemoveWatcher(Watcher* watcher)$/;"	f	class:PacketDispatcher	signature:(Watcher* watcher)
+PacketDispatcher::RemoveWatcher	packet_dispatcher.h	/^    void RemoveWatcher(Watcher* watcher);$/;"	p	class:PacketDispatcher	access:public	signature:(Watcher* watcher)
+PacketDispatcher::ShouldQuit	packet_dispatcher.h	/^    bool ShouldQuit(void) {return should_quit_;}$/;"	f	class:PacketDispatcher	access:public	signature:(void)
+PacketDispatcher::ShouldQuit	packet_dispatcher.h	/^    void ShouldQuit(bool bQuit) {should_quit_ = bQuit;}$/;"	f	class:PacketDispatcher	access:public	signature:(bool bQuit)
+PacketDispatcher::Watcher	packet_dispatcher.h	/^    class Watcher {$/;"	c	class:PacketDispatcher	access:public
+PacketDispatcher::Watcher::PacketId	packet_dispatcher.h	/^        int PacketId() { return packet_id_; }$/;"	f	class:PacketDispatcher::Watcher	access:public	signature:()
+PacketDispatcher::Watcher::ParsePacket	packet_dispatcher.h	/^        virtual void ParsePacket(CArchive& ar) = 0;$/;"	p	class:PacketDispatcher::Watcher	access:public	signature:(CArchive& ar)
+PacketDispatcher::Watcher::Watcher	packet_dispatcher.h	/^        Watcher(int id) : packet_id_(id) {}$/;"	f	class:PacketDispatcher::Watcher	access:public	signature:(int id)
+PacketDispatcher::Watcher::packet_id_	packet_dispatcher.h	/^        int packet_id_;$/;"	m	class:PacketDispatcher::Watcher	access:private
+PacketDispatcher::Watcher::~Watcher	packet_dispatcher.h	/^        virtual ~Watcher(){}$/;"	f	class:PacketDispatcher::Watcher	access:public	signature:()
+PacketDispatcher::should_quit_	packet_dispatcher.h	/^    bool should_quit_;$/;"	m	class:PacketDispatcher	access:private
+PacketDispatcher::watcher_vector_	packet_dispatcher.h	/^    std::vector<Watcher*>     watcher_vector_;$/;"	m	class:PacketDispatcher	access:private
+PacketDispatcher::~PacketDispatcher	packet_dispatcher.cc	/^PacketDispatcher::~PacketDispatcher()$/;"	f	class:PacketDispatcher	signature:()
+PacketDispatcher::~PacketDispatcher	packet_dispatcher.h	/^    virtual ~PacketDispatcher();    $/;"	p	class:PacketDispatcher	access:public	signature:()
+PacketId	packet_dispatcher.h	/^        int PacketId() { return packet_id_; }$/;"	f	class:PacketDispatcher::Watcher	access:public	signature:()
+ParsePacket	connect.cc	/^    virtual void ParsePacket(CArchive& ar) {$/;"	f	class:__anon1::GameStartPacketWatcher	access:public	signature:(CArchive& ar)
+ParsePacket	connect.cc	/^    virtual void ParsePacket(CArchive& ar) {$/;"	f	class:__anon1::HelloPacketWatcher	access:public	signature:(CArchive& ar)
+ParsePacket	connect.cc	/^    virtual void ParsePacket(CArchive& ar) {$/;"	f	class:__anon1::ServerInfoPacketWatcher	access:public	signature:(CArchive& ar)
+ParsePacket	game_window.cc	/^void GameWindow::DealWatcher::ParsePacket(CArchive& ar)$/;"	f	class:GameWindow::DealWatcher	signature:(CArchive& ar)
+ParsePacket	game_window.cc	/^void GameWindow::HelloWatcher::ParsePacket(CArchive& ar)$/;"	f	class:GameWindow::HelloWatcher	signature:(CArchive& ar)
+ParsePacket	game_window.cc	/^void GameWindow::MessageWatcher::ParsePacket(CArchive& ar)$/;"	f	class:GameWindow::MessageWatcher	signature:(CArchive& ar)
+ParsePacket	game_window.cc	/^void GameWindow::ServerInfoWatcher::ParsePacket(CArchive& ar)$/;"	f	class:GameWindow::ServerInfoWatcher	signature:(CArchive& ar)
+ParsePacket	game_window.h	/^        virtual void ParsePacket(CArchive& ar);$/;"	p	class:GameWindow::DealWatcher	access:public	signature:(CArchive& ar)
+ParsePacket	game_window.h	/^        virtual void ParsePacket(CArchive& ar);$/;"	p	class:GameWindow::HelloWatcher	access:public	signature:(CArchive& ar)
+ParsePacket	game_window.h	/^        virtual void ParsePacket(CArchive& ar);$/;"	p	class:GameWindow::MessageWatcher	access:public	signature:(CArchive& ar)
+ParsePacket	game_window.h	/^        virtual void ParsePacket(CArchive& ar);$/;"	p	class:GameWindow::ServerInfoWatcher	access:public	signature:(CArchive& ar)
+ParsePacket	packet_dispatcher.h	/^        virtual void ParsePacket(CArchive& ar) = 0;$/;"	p	class:PacketDispatcher::Watcher	access:public	signature:(CArchive& ar)
+PreCreateWindow	window/Button.cpp	/^void CButton::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CButton	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/Button.h	/^        virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CButton	access:public	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/ComboBox.cpp	/^void CComboBox::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CComboBox	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/ComboBox.h	/^        virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CComboBox	access:public	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/Edit.cpp	/^void CEdit::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CEdit	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/Edit.h	/^        virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CEdit	access:public	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/Static.cpp	/^void CStatic::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CStatic	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/Static.h	/^    virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CStatic	access:public	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/View.cpp	/^void CView::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CView	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/View.h	/^    virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CView	access:public	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/Window.cpp	/^void CWindow::PreCreateWindow(CREATEWINDOWPARAM& param)$/;"	f	class:CWindow	signature:(CREATEWINDOWPARAM& param)
+PreCreateWindow	window/Window.h	/^        virtual void PreCreateWindow(CREATEWINDOWPARAM& param);$/;"	p	class:CWindow	access:public	signature:(CREATEWINDOWPARAM& param)
+PreTranslateMessage	window/Window.cpp	/^void CWindow::PreTranslateMessage(const MSG* msg)$/;"	f	class:CWindow	signature:(const MSG* msg)
+PreTranslateMessage	window/Window.h	/^        virtual void PreTranslateMessage(const MSG* msg);$/;"	p	class:CWindow	access:public	signature:(const MSG* msg)
+PtInRect	window/Rect.h	/^        bool PtInRect(CPoint& pt){return (::PtInRect((RECT*)this, (POINT)pt) != FALSE);}$/;"	f	class:CRect	access:public	signature:(CPoint& pt)
+RemoveWatcher	packet_dispatcher.cc	/^void PacketDispatcher::RemoveWatcher(Watcher* watcher)$/;"	f	class:PacketDispatcher	signature:(Watcher* watcher)
+RemoveWatcher	packet_dispatcher.h	/^    void RemoveWatcher(Watcher* watcher);$/;"	p	class:PacketDispatcher	access:public	signature:(Watcher* watcher)
+SOURCES	Makefile	/^SOURCES := main.cc$/;"	m
+SendMessage	window/Window.cpp	/^LRESULT CWindow::SendMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)$/;"	f	class:CWindow	signature:(UINT uMsg, WPARAM wParam, LPARAM lParam)
+SendMessage	window/Window.h	/^        virtual LRESULT SendMessage(UINT uMsg, WPARAM wParam, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(UINT uMsg, WPARAM wParam, LPARAM lParam)
+ServerInfoPacketWatcher	connect.cc	/^    ServerInfoPacketWatcher() : PacketDispatcher::Watcher(Packet::ID_SERVERINFO) {}$/;"	f	class:__anon1::ServerInfoPacketWatcher	access:public	signature:()
+ServerInfoPacketWatcher	connect.cc	/^class ServerInfoPacketWatcher : public PacketDispatcher::Watcher {$/;"	c	namespace:__anon1	file:	inherits:PacketDispatcher::Watcher
+ServerInfoWatcher	game_window.h	/^        ServerInfoWatcher() : PacketDispatcher::Watcher(Packet::ID_SERVERINFO) {}$/;"	f	class:GameWindow::ServerInfoWatcher	access:public	signature:()
+ServerInfoWatcher	game_window.h	/^    class ServerInfoWatcher: public PacketDispatcher::Watcher {$/;"	c	class:GameWindow	inherits:PacketDispatcher::Watcher	access:private
+SetGameStartPacket	info.cc	/^void SetGameStartPacket(GameStartPacket& packet)$/;"	f	namespace:game_info	signature:(GameStartPacket& packet)
+SetGameStartPacket	info.h	/^void SetGameStartPacket(GameStartPacket& packet);$/;"	p	namespace:game_info	signature:(GameStartPacket& packet)
+SetMainSocket	info.cc	/^void SetMainSocket(tools::CSocket& sock)$/;"	f	namespace:game_info	signature:(tools::CSocket& sock)
+SetMainSocket	info.h	/^void SetMainSocket(tools::CSocket& sock);$/;"	p	namespace:game_info	signature:(tools::CSocket& sock)
+SetMultiLine	window/Edit.cpp	/^void CEdit::SetMultiLine(bool multi)$/;"	f	class:CEdit	signature:(bool multi)
+SetMultiLine	window/Edit.h	/^        virtual void    SetMultiLine(bool multi = true);$/;"	p	class:CEdit	access:public	signature:(bool multi = true)
+SetPlayerName	info.cc	/^void SetPlayerName(std::string  name)$/;"	f	namespace:game_info	signature:(std::string name)
+SetPlayerName	info.h	/^void SetPlayerName(std::string  name);$/;"	p	namespace:game_info	signature:(std::string name)
+SetText	window/Edit.cpp	/^void CEdit::SetText(LPCTSTR text)$/;"	f	class:CEdit	signature:(LPCTSTR text)
+SetText	window/Edit.h	/^        virtual void    SetText(LPCTSTR text);$/;"	p	class:CEdit	access:public	signature:(LPCTSTR text)
+SetTimer	window/Window.cpp	/^unsigned int CWindow::SetTimer(unsigned int uElapse, unsigned int timerID)$/;"	f	class:CWindow	signature:(unsigned int uElapse, unsigned int timerID)
+SetTimer	window/Window.h	/^        virtual unsigned int  SetTimer(unsigned int uElapse, unsigned int timerID = 0);$/;"	p	class:CWindow	access:public	signature:(unsigned int uElapse, unsigned int timerID = 0)
+SetWindowText	window/Window.cpp	/^void CWindow::SetWindowText(LPCTSTR text)$/;"	f	class:CWindow	signature:(LPCTSTR text)
+SetWindowText	window/Window.h	/^        virtual void SetWindowText(LPCTSTR text);$/;"	p	class:CWindow	access:public	signature:(LPCTSTR text)
+ShouldQuit	packet_dispatcher.h	/^    bool ShouldQuit(void) {return should_quit_;}$/;"	f	class:PacketDispatcher	access:public	signature:(void)
+ShouldQuit	packet_dispatcher.h	/^    void ShouldQuit(bool bQuit) {should_quit_ = bQuit;}$/;"	f	class:PacketDispatcher	access:public	signature:(bool bQuit)
+Show	window/Window.cpp	/^void CWindow::Show(bool bShow)$/;"	f	class:CWindow	signature:(bool bShow)
+Show	window/Window.h	/^        virtual void Show(bool bShow = true);$/;"	p	class:CWindow	access:public	signature:(bool bShow = true)
+StartSocketThread	game_window.cc	/^static void StartSocketThread(void)$/;"	f	namespace:__anon3	signature:(void)
+TARGET	Makefile	/^TARGET	= poker$/;"	m
+TARGET	window/Makefile	/^TARGET	= libwindow.a$/;"	m
+TEST	window/Makefile	/^TEST	= test.exe$/;"	m
+UnlockCreate	window/WndProc.h	/^void UnlockCreate();$/;"	p	signature:()
+WM_USER_ONDATARECEIVED	game_window.cc	18;"	d	file:
+WM_USER_SERVERDOWN	game_window.cc	17;"	d	file:
+WaitSocketThread	game_window.cc	/^static void WaitSocketThread(void)$/;"	f	namespace:__anon3	signature:(void)
+Watcher	packet_dispatcher.h	/^        Watcher(int id) : packet_id_(id) {}$/;"	f	class:PacketDispatcher::Watcher	access:public	signature:(int id)
+Watcher	packet_dispatcher.h	/^    class Watcher {$/;"	c	class:PacketDispatcher	access:public
+Width	window/Rect.h	/^        int Width(void){return right - left;}$/;"	f	class:CRect	access:public	signature:(void)
+WinMain	window/WinMain.cpp	/^int WINAPI WinMain($/;"	f	signature:( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow )
+WindowProc	game_window.cc	/^LRESULT GameWindow::WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)$/;"	f	class:GameWindow	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+WindowProc	game_window.h	/^    virtual LRESULT WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);$/;"	p	class:GameWindow	access:public	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+WindowProc	window/Window.cpp	/^LRESULT CWindow::WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)$/;"	f	class:CWindow	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+WindowProc	window/Window.h	/^        virtual LRESULT WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);$/;"	p	class:CWindow	access:public	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+WndClass	window/Window.h	/^                WNDCLASS WndClass;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+_GetWindow	window/WndProc.cpp	/^static CWindow *   _GetWindow(HWND hWnd)$/;"	f	file:	signature:(HWND hWnd)
+_RegisterWindow	window/WndProc.cpp	/^void _RegisterWindow(CWindow * window)$/;"	f	signature:(CWindow * window)
+_RegisterWindow	window/WndProc.h	/^void _RegisterWindow(CWindow * window);$/;"	p	signature:(CWindow * window)
+_UnregisterWindow	window/WndProc.cpp	/^void _UnregisterWindow(CWindow * window)$/;"	f	signature:(CWindow * window)
+_UnregisterWindow	window/WndProc.h	/^void _UnregisterWindow(CWindow * window);$/;"	p	signature:(CWindow * window)
+_WndProc	window/WndProc.cpp	/^LRESULT CALLBACK    _WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)$/;"	f	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+_WndProc	window/WndProc.h	/^LRESULT CALLBACK    _WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);$/;"	p	signature:(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+__GETOPT_H__	getopt.h	4;"	d
+__anon1::GameStartPacketWatcher	connect.cc	/^class GameStartPacketWatcher : public PacketDispatcher::Watcher {$/;"	c	namespace:__anon1	file:	inherits:PacketDispatcher::Watcher
+__anon1::GameStartPacketWatcher::GameStartPacketWatcher	connect.cc	/^    GameStartPacketWatcher() : PacketDispatcher::Watcher(Packet::ID_GAMESTART) {}$/;"	f	class:__anon1::GameStartPacketWatcher	access:public	signature:()
+__anon1::GameStartPacketWatcher::ParsePacket	connect.cc	/^    virtual void ParsePacket(CArchive& ar) {$/;"	f	class:__anon1::GameStartPacketWatcher	access:public	signature:(CArchive& ar)
+__anon1::GameStartPacketWatcher::~GameStartPacketWatcher	connect.cc	/^    virtual ~GameStartPacketWatcher() {}$/;"	f	class:__anon1::GameStartPacketWatcher	access:public	signature:()
+__anon1::HelloPacketWatcher	connect.cc	/^class HelloPacketWatcher : public PacketDispatcher::Watcher {$/;"	c	namespace:__anon1	file:	inherits:PacketDispatcher::Watcher
+__anon1::HelloPacketWatcher::HelloPacketWatcher	connect.cc	/^    HelloPacketWatcher() : PacketDispatcher::Watcher(Packet::ID_HELLO) {}$/;"	f	class:__anon1::HelloPacketWatcher	access:public	signature:()
+__anon1::HelloPacketWatcher::ParsePacket	connect.cc	/^    virtual void ParsePacket(CArchive& ar) {$/;"	f	class:__anon1::HelloPacketWatcher	access:public	signature:(CArchive& ar)
+__anon1::HelloPacketWatcher::~HelloPacketWatcher	connect.cc	/^    virtual ~HelloPacketWatcher() {}$/;"	f	class:__anon1::HelloPacketWatcher	access:public	signature:()
+__anon1::ServerInfoPacketWatcher	connect.cc	/^class ServerInfoPacketWatcher : public PacketDispatcher::Watcher {$/;"	c	namespace:__anon1	file:	inherits:PacketDispatcher::Watcher
+__anon1::ServerInfoPacketWatcher::ParsePacket	connect.cc	/^    virtual void ParsePacket(CArchive& ar) {$/;"	f	class:__anon1::ServerInfoPacketWatcher	access:public	signature:(CArchive& ar)
+__anon1::ServerInfoPacketWatcher::ServerInfoPacketWatcher	connect.cc	/^    ServerInfoPacketWatcher() : PacketDispatcher::Watcher(Packet::ID_SERVERINFO) {}$/;"	f	class:__anon1::ServerInfoPacketWatcher	access:public	signature:()
+__anon1::ServerInfoPacketWatcher::~ServerInfoPacketWatcher	connect.cc	/^    virtual ~ServerInfoPacketWatcher() {}$/;"	f	class:__anon1::ServerInfoPacketWatcher	access:public	signature:()
+__anon1::g_packet_dispatcher	connect.cc	/^static PacketDispatcher g_packet_dispatcher;$/;"	m	namespace:__anon1	file:
+__anon1::send_packet	connect.cc	/^static void send_packet(Packet* packet)$/;"	f	namespace:__anon1	signature:(Packet* packet)
+__anon1::sock	connect.cc	/^static CSocket sock(CSocket::eSocketType_TCP);$/;"	p	namespace:__anon1	file:	signature:(CSocket::eSocketType_TCP)
+__anon3::StartSocketThread	game_window.cc	/^static void StartSocketThread(void)$/;"	f	namespace:__anon3	signature:(void)
+__anon3::WaitSocketThread	game_window.cc	/^static void WaitSocketThread(void)$/;"	f	namespace:__anon3	signature:(void)
+__anon3::_socket_read_proc	game_window.cc	/^static DWORD WINAPI _socket_read_proc(LPVOID lpParam)$/;"	f	namespace:__anon3	signature:(LPVOID lpParam)
+__anon3::g_data_list	game_window.cc	/^static std::list<std::string>   g_data_list;$/;"	m	namespace:__anon3	file:
+__anon3::g_data_lock	game_window.cc	/^static tools::CLock             g_data_lock;$/;"	m	namespace:__anon3	file:
+__anon3::g_game_window	game_window.cc	/^static GameWindow * g_game_window = NULL;$/;"	m	namespace:__anon3	file:
+__anon3::g_handle	game_window.cc	/^static HANDLE g_handle;$/;"	m	namespace:__anon3	file:
+__anon3::g_thread_running	game_window.cc	/^static bool g_thread_running = false;$/;"	m	namespace:__anon3	file:
+__anon3::g_threadid	game_window.cc	/^static DWORD g_threadid;$/;"	m	namespace:__anon3	file:
+_socket_read_proc	game_window.cc	/^static DWORD WINAPI _socket_read_proc(LPVOID lpParam)$/;"	f	namespace:__anon3	signature:(LPVOID lpParam)
+ambig	getopt.cc	/^static const char ambig[] = "ambiguous option -- %.*s\\n";$/;"	v	file:
+common	packet_dispatcher.cc	/^DECLARE_MODULE(common);$/;"	v
+connect_start	connect.cc	/^void connect_start(const char * server, int port)$/;"	f	signature:(const char * server, int port)
+connect_start	connect.h	/^void connect_start(const char * server, int port);$/;"	p	signature:(const char * server, int port)
+deal_watcher_	game_window.h	/^    DealWatcher         deal_watcher_;$/;"	m	class:GameWindow	access:private
+doModal	window/Window.cpp	/^int CWindow::doModal(void)$/;"	f	class:CWindow	signature:(void)
+doModal	window/Window.h	/^        virtual int  doModal(void);$/;"	p	class:CWindow	access:public	signature:(void)
+dwExStyle	window/Window.h	/^                DWORD dwExStyle;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+dwICC	window/App.cpp	/^	DWORD dwICC;$/;"	m	struct:tagICCEX	file:	access:public
+dwSize	window/App.cpp	/^	DWORD dwSize;$/;"	m	struct:tagICCEX	file:	access:public
+dwStyle	window/Window.h	/^                DWORD dwStyle;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+eCenter_Both	window/Window.h	/^                eCenter_Both, eCenter_Horizontal, eCenter_Vertical,$/;"	e	enum:CWindow::__anon2
+eCenter_Horizontal	window/Window.h	/^                eCenter_Both, eCenter_Horizontal, eCenter_Vertical,$/;"	e	enum:CWindow::__anon2
+eCenter_Vertical	window/Window.h	/^                eCenter_Both, eCenter_Horizontal, eCenter_Vertical,$/;"	e	enum:CWindow::__anon2
+flag	getopt.h	/^        int *flag;$/;"	m	struct:option	access:public
+g_data_list	game_window.cc	/^static std::list<std::string>   g_data_list;$/;"	m	namespace:__anon3	file:
+g_data_lock	game_window.cc	/^static tools::CLock             g_data_lock;$/;"	m	namespace:__anon3	file:
+g_exename	main.cc	/^static std::string  g_exename = "poker";$/;"	v	file:
+g_game_window	game_window.cc	/^static GameWindow * g_game_window = NULL;$/;"	m	namespace:__anon3	file:
+g_gamestart_packet	info.cc	/^static GameStartPacket *    g_gamestart_packet = NULL;$/;"	m	namespace:game_info	file:
+g_handle	game_window.cc	/^static HANDLE g_handle;$/;"	m	namespace:__anon3	file:
+g_packet_dispatcher	connect.cc	/^static PacketDispatcher g_packet_dispatcher;$/;"	m	namespace:__anon1	file:
+g_player_name	info.cc	/^static std::string          g_player_name;$/;"	m	namespace:game_info	file:
+g_server_address	main.cc	/^static std::string  g_server_address = "127.0.0.1";$/;"	v	file:
+g_server_port	main.cc	/^static int          g_server_port = 10234;$/;"	v	file:
+g_socket	info.cc	/^static tools::CSocket       g_socket;$/;"	m	namespace:game_info	file:
+g_thread_running	game_window.cc	/^static bool g_thread_running = false;$/;"	m	namespace:__anon3	file:
+g_threadid	game_window.cc	/^static DWORD g_threadid;$/;"	m	namespace:__anon3	file:
+game_info	info.cc	/^namespace game_info {$/;"	n	file:
+game_info	info.h	/^namespace game_info {$/;"	n
+game_info::GetGameStartPacket	info.cc	/^GameStartPacket* GetGameStartPacket(void)$/;"	f	namespace:game_info	signature:(void)
+game_info::GetGameStartPacket	info.h	/^GameStartPacket* GetGameStartPacket(void);$/;"	p	namespace:game_info	signature:(void)
+game_info::GetMainSocket	info.cc	/^tools::CSocket&  GetMainSocket(void)$/;"	f	namespace:game_info	signature:(void)
+game_info::GetMainSocket	info.h	/^tools::CSocket&  GetMainSocket(void);$/;"	p	namespace:game_info	signature:(void)
+game_info::GetPlayerName	info.cc	/^std::string GetPlayerName(void)$/;"	f	namespace:game_info	signature:(void)
+game_info::GetPlayerName	info.h	/^std::string GetPlayerName(void);$/;"	p	namespace:game_info	signature:(void)
+game_info::SetGameStartPacket	info.cc	/^void SetGameStartPacket(GameStartPacket& packet)$/;"	f	namespace:game_info	signature:(GameStartPacket& packet)
+game_info::SetGameStartPacket	info.h	/^void SetGameStartPacket(GameStartPacket& packet);$/;"	p	namespace:game_info	signature:(GameStartPacket& packet)
+game_info::SetMainSocket	info.cc	/^void SetMainSocket(tools::CSocket& sock)$/;"	f	namespace:game_info	signature:(tools::CSocket& sock)
+game_info::SetMainSocket	info.h	/^void SetMainSocket(tools::CSocket& sock);$/;"	p	namespace:game_info	signature:(tools::CSocket& sock)
+game_info::SetPlayerName	info.cc	/^void SetPlayerName(std::string  name)$/;"	f	namespace:game_info	signature:(std::string name)
+game_info::SetPlayerName	info.h	/^void SetPlayerName(std::string  name);$/;"	p	namespace:game_info	signature:(std::string name)
+game_info::g_gamestart_packet	info.cc	/^static GameStartPacket *    g_gamestart_packet = NULL;$/;"	m	namespace:game_info	file:
+game_info::g_player_name	info.cc	/^static std::string          g_player_name;$/;"	m	namespace:game_info	file:
+game_info::g_socket	info.cc	/^static tools::CSocket       g_socket;$/;"	m	namespace:game_info	file:
+game_start	game.cc	/^void game_start(tools::CSocket& sock, GameStartPacket& packet)$/;"	f	signature:(tools::CSocket& sock, GameStartPacket& packet)
+game_start	game.h	/^void game_start(tools::CSocket& sock, GameStartPacket& packet);$/;"	p	signature:(tools::CSocket& sock, GameStartPacket& packet)
+gamewin	game_window.cc	/^DECLARE_MODULE(gamewin);$/;"	v
+gcd	getopt.cc	/^gcd(int a, int b)$/;"	f	file:	signature:(int a, int b)
+gcd	getopt.cc	/^static int gcd (int, int);$/;"	p	file:	signature:(int, int)
+getopt_internal	getopt.cc	/^getopt_internal(int nargc, char * const *nargv, const char *options)$/;"	f	file:	signature:(int nargc, char * const *nargv, const char *options)
+getopt_internal	getopt.cc	/^static int getopt_internal (int, char * const *, const char *);$/;"	p	file:	signature:(int, char * const *, const char *)
+getopt_long	getopt.cc	/^getopt_long(int nargc, char * const *nargv, const char *options,$/;"	f	signature:(int nargc, char * const *nargv, const char *options, const struct option *long_options, int *idx)
+getopt_long	getopt.cc	/^int getopt_long(int, char * const *, const char *,const struct option *, int *);$/;"	p	file:	signature:(int, char * const *, const char *,const struct option *, int *)
+getopt_long	getopt.h	/^int getopt_long(int, char * const *, const char *, const struct option *, int *);$/;"	p	signature:(int, char * const *, const char *, const struct option *, int *)
+hMenu	window/Window.h	/^                HMENU hMenu;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+has_arg	getopt.h	/^        int has_arg;$/;"	m	struct:option	access:public
+hello_watcher_	game_window.h	/^    HelloWatcher        hello_watcher_;$/;"	m	class:GameWindow	access:private
+illoptchar	getopt.cc	/^static const char illoptchar[] = "unknown option -- %c\\n";$/;"	v	file:
+illoptstring	getopt.cc	/^static const char illoptstring[] = "unknown option -- %s\\n";$/;"	v	file:
+loop	window/App.cpp	/^void CApp::loop(void)$/;"	f	class:CApp	signature:(void)
+loop	window/App.h	/^        virtual void    loop(void);$/;"	p	class:CApp	access:public	signature:(void)
+lpClassName	window/Window.h	/^                LPCTSTR lpClassName;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+lpParam	window/Window.h	/^                LPVOID lpParam;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+lpWindowName	window/Window.h	/^                LPCTSTR lpWindowName;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+m_CreateParam	window/Window.h	/^        CREATEWINDOWPARAM m_CreateParam;$/;"	m	class:CWindow	access:private
+m_IsModal	window/Window.h	/^        bool    m_IsModal;$/;"	m	class:CWindow	access:private
+m_Modaling	window/Window.h	/^        bool    m_Modaling;$/;"	m	class:CWindow	access:private
+m_bLoop	window/App.h	/^        bool    m_bLoop;$/;"	m	class:CApp	access:private
+m_hInstance	window/Window.h	/^        static HINSTANCE m_hInstance;$/;"	m	class:CWindow	access:private
+m_hWnd	window/Window.h	/^        HWND m_hWnd;$/;"	m	class:CWindow	access:private
+m_mainApp	window/App.cpp	/^static CApp    *   m_mainApp   = NULL;$/;"	v	file:
+m_multiline	window/Edit.h	/^        bool    m_multiline;$/;"	m	class:CEdit	access:private
+m_window	game.h	/^    GameWindow * m_window;$/;"	m	class:GameApp	access:private
+main	main.cc	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	window/WinMain.cpp	/^int main(void)$/;"	f	signature:(void)
+message_watcher_	game_window.h	/^    MessageWatcher      message_watcher_;$/;"	m	class:GameWindow	access:private
+name	getopt.h	/^        const char *name;$/;"	m	struct:option	access:public
+no_argument	getopt.cc	8;"	d	file:
+no_argument	getopt.h	8;"	d
+noarg	getopt.cc	/^static const char noarg[] = "option doesn't take an argument -- %.*s\\n";$/;"	v	file:
+nonopt_end	getopt.cc	/^static int nonopt_end = -1;   \/* first option after non options (for permute) *\/$/;"	v	file:
+nonopt_start	getopt.cc	/^static int nonopt_start = -1; \/* first non option argument (for permute) *\/$/;"	v	file:
+operator =	window/Rect.h	/^        CPoint& operator=(const CPoint& o)$/;"	f	class:CPoint	access:public	signature:(const CPoint& o)
+operator =	window/Rect.h	/^        CRect& operator=(const CRect& o)$/;"	f	class:CRect	access:public	signature:(const CRect& o)
+optarg	getopt.cc	/^char *optarg;$/;"	v
+opterr	getopt.cc	/^int opterr = 1;$/;"	v
+optind	getopt.cc	/^int optind = 0;$/;"	v
+option	getopt.h	/^struct option$/;"	s
+option::flag	getopt.h	/^        int *flag;$/;"	m	struct:option	access:public
+option::has_arg	getopt.h	/^        int has_arg;$/;"	m	struct:option	access:public
+option::name	getopt.h	/^        const char *name;$/;"	m	struct:option	access:public
+option::val	getopt.h	/^        int val;$/;"	m	struct:option	access:public
+optional_argument	getopt.cc	10;"	d	file:
+optional_argument	getopt.h	10;"	d
+optopt	getopt.cc	/^int optopt = 0;$/;"	v
+packet_dispatcher_	game_window.h	/^    PacketDispatcher    packet_dispatcher_;$/;"	m	class:GameWindow	access:private
+packet_id_	packet_dispatcher.h	/^        int packet_id_;$/;"	m	class:PacketDispatcher::Watcher	access:private
+parse_arguments	main.cc	/^static int parse_arguments(int argc, char* argv[])$/;"	f	file:	signature:(int argc, char* argv[])
+permute_args	getopt.cc	/^permute_args(int panonopt_start, int panonopt_end, int opt_end,$/;"	f	file:	signature:(int panonopt_start, int panonopt_end, int opt_end, char * const *nargv)
+permute_args	getopt.cc	/^static void permute_args (int, int, int, char * const *);$/;"	p	file:	signature:(int, int, int, char * const *)
+place	getopt.cc	/^static char *place = EMSG; \/* option letter processing *\/$/;"	v	file:
+quit	window/App.cpp	/^void CApp::quit(void)$/;"	f	class:CApp	signature:(void)
+quit	window/App.h	/^        virtual void    quit(void);$/;"	p	class:CApp	access:public	signature:(void)
+recargchar	getopt.cc	/^static const char recargchar[] = "option requires an argument -- %c\\n";$/;"	v	file:
+recargstring	getopt.cc	/^static const char recargstring[] = "option requires an argument -- %s\\n";$/;"	v	file:
+rect	window/Window.h	/^                CRect rect;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+required_argument	getopt.cc	9;"	d	file:
+required_argument	getopt.h	9;"	d
+send_packet	connect.cc	/^static void send_packet(Packet* packet)$/;"	f	namespace:__anon1	signature:(Packet* packet)
+server_watcher_	game_window.h	/^    ServerInfoWatcher   server_watcher_;$/;"	m	class:GameWindow	access:private
+should_quit_	packet_dispatcher.h	/^    bool should_quit_;$/;"	m	class:PacketDispatcher	access:private
+sock	connect.cc	/^static CSocket sock(CSocket::eSocketType_TCP);$/;"	p	namespace:__anon1	file:	signature:(CSocket::eSocketType_TCP)
+tagCREATEWINDOWPARAM	window/Window.h	/^typedef struct tagCREATEWINDOWPARAM$/;"	s
+tagCREATEWINDOWPARAM::WndClass	window/Window.h	/^                WNDCLASS WndClass;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+tagCREATEWINDOWPARAM::dwExStyle	window/Window.h	/^                DWORD dwExStyle;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+tagCREATEWINDOWPARAM::dwStyle	window/Window.h	/^                DWORD dwStyle;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+tagCREATEWINDOWPARAM::hMenu	window/Window.h	/^                HMENU hMenu;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+tagCREATEWINDOWPARAM::lpClassName	window/Window.h	/^                LPCTSTR lpClassName;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+tagCREATEWINDOWPARAM::lpParam	window/Window.h	/^                LPVOID lpParam;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+tagCREATEWINDOWPARAM::lpWindowName	window/Window.h	/^                LPCTSTR lpWindowName;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+tagCREATEWINDOWPARAM::rect	window/Window.h	/^                CRect rect;$/;"	m	struct:tagCREATEWINDOWPARAM	access:public
+tagICCEX	window/App.cpp	/^typedef struct tagICCEX{$/;"	s	file:
+tagICCEX::dwICC	window/App.cpp	/^	DWORD dwICC;$/;"	m	struct:tagICCEX	file:	access:public
+tagICCEX::dwSize	window/App.cpp	/^	DWORD dwSize;$/;"	m	struct:tagICCEX	file:	access:public
+usage	main.cc	/^static void usage(void)$/;"	f	file:	signature:(void)
+val	getopt.h	/^        int val;$/;"	m	struct:option	access:public
+vecWindows	window/WndProc.cpp	/^static vector<CWindow *>       vecWindows;$/;"	v	file:
+watcher_vector_	packet_dispatcher.h	/^    std::vector<Watcher*>     watcher_vector_;$/;"	m	class:PacketDispatcher	access:private
+~CApp	window/App.cpp	/^CApp::~CApp()$/;"	f	class:CApp	signature:()
+~CApp	window/App.h	/^        ~CApp();$/;"	p	class:CApp	access:public	signature:()
+~CButton	window/Button.cpp	/^CButton::~CButton()$/;"	f	class:CButton	signature:()
+~CButton	window/Button.h	/^        virtual ~CButton();$/;"	p	class:CButton	access:public	signature:()
+~CComboBox	window/ComboBox.cpp	/^CComboBox::~CComboBox()$/;"	f	class:CComboBox	signature:()
+~CComboBox	window/ComboBox.h	/^        virtual ~CComboBox();$/;"	p	class:CComboBox	access:public	signature:()
+~CEdit	window/Edit.cpp	/^CEdit::~CEdit()$/;"	f	class:CEdit	signature:()
+~CEdit	window/Edit.h	/^        virtual ~CEdit();$/;"	p	class:CEdit	access:public	signature:()
+~CPoint	window/Rect.h	/^        ~CPoint(){};$/;"	f	class:CPoint	access:public	signature:()
+~CRect	window/Rect.h	/^        ~CRect(){};$/;"	f	class:CRect	access:public	signature:()
+~CSize	window/Rect.h	/^        ~CSize(){};$/;"	f	class:CSize	access:public	signature:()
+~CStatic	window/Static.cpp	/^CStatic::~CStatic()$/;"	f	class:CStatic	signature:()
+~CStatic	window/Static.h	/^    virtual ~CStatic();$/;"	p	class:CStatic	access:public	signature:()
+~CView	window/View.cpp	/^CView::~CView()$/;"	f	class:CView	signature:()
+~CView	window/View.h	/^    virtual ~CView();$/;"	p	class:CView	access:public	signature:()
+~CWindow	window/Window.cpp	/^CWindow::~CWindow()$/;"	f	class:CWindow	signature:()
+~CWindow	window/Window.h	/^        virtual ~CWindow();$/;"	p	class:CWindow	access:public	signature:()
+~GameStartPacketWatcher	connect.cc	/^    virtual ~GameStartPacketWatcher() {}$/;"	f	class:__anon1::GameStartPacketWatcher	access:public	signature:()
+~GameWindow	game_window.cc	/^GameWindow::~GameWindow()$/;"	f	class:GameWindow	signature:()
+~GameWindow	game_window.h	/^    virtual ~GameWindow();$/;"	p	class:GameWindow	access:public	signature:()
+~HelloPacketWatcher	connect.cc	/^    virtual ~HelloPacketWatcher() {}$/;"	f	class:__anon1::HelloPacketWatcher	access:public	signature:()
+~PacketDispatcher	packet_dispatcher.cc	/^PacketDispatcher::~PacketDispatcher()$/;"	f	class:PacketDispatcher	signature:()
+~PacketDispatcher	packet_dispatcher.h	/^    virtual ~PacketDispatcher();    $/;"	p	class:PacketDispatcher	access:public	signature:()
+~ServerInfoPacketWatcher	connect.cc	/^    virtual ~ServerInfoPacketWatcher() {}$/;"	f	class:__anon1::ServerInfoPacketWatcher	access:public	signature:()
+~Watcher	packet_dispatcher.h	/^        virtual ~Watcher(){}$/;"	f	class:PacketDispatcher::Watcher	access:public	signature:()

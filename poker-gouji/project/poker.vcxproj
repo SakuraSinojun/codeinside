@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{306F764D-1406-462D-867A-D3C755F81A99}</ProjectGuid>
+    <RootNamespace>poker</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\common;..\log;..\client\render\zlib;$(IncludePath)</IncludePath>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\target\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\log;..\common;..\client\render\zlib;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ws2_32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\client\connect.cc" />
+    <ClCompile Include="..\client\game.cc" />
+    <ClCompile Include="..\client\game_window.cc" />
+    <ClCompile Include="..\client\getopt.cc" />
+    <ClCompile Include="..\client\info.cc" />
+    <ClCompile Include="..\client\main.cc" />
+    <ClCompile Include="..\client\packet_dispatcher.cc" />
+    <ClCompile Include="..\client\render\Animation.cc" />
+    <ClCompile Include="..\client\render\jpeg\jaricom.c" />
+    <ClCompile Include="..\client\render\jpeg\jcapimin.c" />
+    <ClCompile Include="..\client\render\jpeg\jcapistd.c" />
+    <ClCompile Include="..\client\render\jpeg\jcarith.c" />
+    <ClCompile Include="..\client\render\jpeg\jccoefct.c" />
+    <ClCompile Include="..\client\render\jpeg\jccolor.c" />
+    <ClCompile Include="..\client\render\jpeg\jcdctmgr.c" />
+    <ClCompile Include="..\client\render\jpeg\jchuff.c" />
+    <ClCompile Include="..\client\render\jpeg\jcinit.c" />
+    <ClCompile Include="..\client\render\jpeg\jcmainct.c" />
+    <ClCompile Include="..\client\render\jpeg\jcmarker.c" />
+    <ClCompile Include="..\client\render\jpeg\jcmaster.c" />
+    <ClCompile Include="..\client\render\jpeg\jcomapi.c" />
+    <ClCompile Include="..\client\render\jpeg\jcparam.c" />
+    <ClCompile Include="..\client\render\jpeg\jcprepct.c" />
+    <ClCompile Include="..\client\render\jpeg\jcsample.c" />
+    <ClCompile Include="..\client\render\jpeg\jctrans.c" />
+    <ClCompile Include="..\client\render\jpeg\jdapimin.c" />
+    <ClCompile Include="..\client\render\jpeg\jdapistd.c" />
+    <ClCompile Include="..\client\render\jpeg\jdarith.c" />
+    <ClCompile Include="..\client\render\jpeg\jdatadst.c" />
+    <ClCompile Include="..\client\render\jpeg\jdatasrc.c" />
+    <ClCompile Include="..\client\render\jpeg\jdcoefct.c" />
+    <ClCompile Include="..\client\render\jpeg\jdcolor.c" />
+    <ClCompile Include="..\client\render\jpeg\jddctmgr.c" />
+    <ClCompile Include="..\client\render\jpeg\jdhuff.c" />
+    <ClCompile Include="..\client\render\jpeg\jdinput.c" />
+    <ClCompile Include="..\client\render\jpeg\jdmainct.c" />
+    <ClCompile Include="..\client\render\jpeg\jdmarker.c" />
+    <ClCompile Include="..\client\render\jpeg\jdmaster.c" />
+    <ClCompile Include="..\client\render\jpeg\jdmerge.c" />
+    <ClCompile Include="..\client\render\jpeg\jdpostct.c" />
+    <ClCompile Include="..\client\render\jpeg\jdsample.c" />
+    <ClCompile Include="..\client\render\jpeg\jdtrans.c" />
+    <ClCompile Include="..\client\render\jpeg\jerror.c" />
+    <ClCompile Include="..\client\render\jpeg\jfdctflt.c" />
+    <ClCompile Include="..\client\render\jpeg\jfdctfst.c" />
+    <ClCompile Include="..\client\render\jpeg\jfdctint.c" />
+    <ClCompile Include="..\client\render\jpeg\jidctflt.c" />
+    <ClCompile Include="..\client\render\jpeg\jidctfst.c" />
+    <ClCompile Include="..\client\render\jpeg\jidctint.c" />
+    <ClCompile Include="..\client\render\jpeg\jmemmgr.c" />
+    <ClCompile Include="..\client\render\jpeg\jmemnobs.c" />
+    <ClCompile Include="..\client\render\jpeg\jquant1.c" />
+    <ClCompile Include="..\client\render\jpeg\jquant2.c" />
+    <ClCompile Include="..\client\render\jpeg\jutils.c" />
+    <ClCompile Include="..\client\render\png\png.c" />
+    <ClCompile Include="..\client\render\png\pngerror.c" />
+    <ClCompile Include="..\client\render\png\pngget.c" />
+    <ClCompile Include="..\client\render\png\pngmem.c" />
+    <ClCompile Include="..\client\render\png\pngpread.c" />
+    <ClCompile Include="..\client\render\png\pngread.c" />
+    <ClCompile Include="..\client\render\png\pngrio.c" />
+    <ClCompile Include="..\client\render\png\pngrtran.c" />
+    <ClCompile Include="..\client\render\png\pngrutil.c" />
+    <ClCompile Include="..\client\render\png\pngset.c" />
+    <ClCompile Include="..\client\render\png\pngtrans.c" />
+    <ClCompile Include="..\client\render\png\pngwio.c" />
+    <ClCompile Include="..\client\render\png\pngwrite.c" />
+    <ClCompile Include="..\client\render\png\pngwtran.c" />
+    <ClCompile Include="..\client\render\png\pngwutil.c" />
+    <ClCompile Include="..\client\render\Render.cc" />
+    <ClCompile Include="..\client\render\Surface.cc" />
+    <ClCompile Include="..\client\render\zlib\adler32.c" />
+    <ClCompile Include="..\client\render\zlib\compress.c" />
+    <ClCompile Include="..\client\render\zlib\crc32.c" />
+    <ClCompile Include="..\client\render\zlib\deflate.c" />
+    <ClCompile Include="..\client\render\zlib\gzclose.c" />
+    <ClCompile Include="..\client\render\zlib\gzlib.c" />
+    <ClCompile Include="..\client\render\zlib\gzread.c" />
+    <ClCompile Include="..\client\render\zlib\gzwrite.c" />
+    <ClCompile Include="..\client\render\zlib\infback.c" />
+    <ClCompile Include="..\client\render\zlib\inffast.c" />
+    <ClCompile Include="..\client\render\zlib\inflate.c" />
+    <ClCompile Include="..\client\render\zlib\inftrees.c" />
+    <ClCompile Include="..\client\render\zlib\trees.c" />
+    <ClCompile Include="..\client\render\zlib\uncompr.c" />
+    <ClCompile Include="..\client\render\zlib\zutil.c" />
+    <ClCompile Include="..\client\window\App.cpp" />
+    <ClCompile Include="..\client\window\Button.cpp" />
+    <ClCompile Include="..\client\window\ComboBox.cpp" />
+    <ClCompile Include="..\client\window\Edit.cpp" />
+    <ClCompile Include="..\client\window\Rect.cpp" />
+    <ClCompile Include="..\client\window\Static.cpp" />
+    <ClCompile Include="..\client\window\View.cpp" />
+    <ClCompile Include="..\client\window\Window.cpp" />
+    <ClCompile Include="..\client\window\WndProc.cpp" />
+    <ClCompile Include="..\common\Archive.cc" />
+    <ClCompile Include="..\common\gnufuncs.cc" />
+    <ClCompile Include="..\common\packet\deal_packet.cc" />
+    <ClCompile Include="..\common\packet\game_start_packet.cc" />
+    <ClCompile Include="..\common\packet\heartbit_packet.cc" />
+    <ClCompile Include="..\common\packet\hello_packet.cc" />
+    <ClCompile Include="..\common\packet\message_packet.cc" />
+    <ClCompile Include="..\common\packet\play_packet.cc" />
+    <ClCompile Include="..\common\packet\scene_packet.cc" />
+    <ClCompile Include="..\common\packet\server_info_packet.cc" />
+    <ClCompile Include="..\common\packet_parser.cc" />
+    <ClCompile Include="..\common\rules\gouji.cc" />
+    <ClCompile Include="..\common\tools\config.cc" />
+    <ClCompile Include="..\common\tools\dump.cc" />
+    <ClCompile Include="..\common\tools\lock.cc" />
+    <ClCompile Include="..\common\tools\select.cc" />
+    <ClCompile Include="..\common\tools\socket.cc" />
+    <ClCompile Include="..\common\util\string.cc" />
+    <ClCompile Include="..\log\iptv_logging.cc" />
+    <ClCompile Include="..\log\log.cc" />
+    <ClCompile Include="..\log\log_tracer.cc" />
+    <ClCompile Include="..\log\log_tracer_file.cc" />
+    <ClCompile Include="..\log\log_tracer_shell.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\client\connect.h" />
+    <ClInclude Include="..\client\game.h" />
+    <ClInclude Include="..\client\game_window.h" />
+    <ClInclude Include="..\client\getopt.h" />
+    <ClInclude Include="..\client\info.h" />
+    <ClInclude Include="..\client\packet_dispatcher.h" />
+    <ClInclude Include="..\client\render\Animation.h" />
+    <ClInclude Include="..\client\render\jpeg\cderror.h" />
+    <ClInclude Include="..\client\render\jpeg\cdjpeg.h" />
+    <ClInclude Include="..\client\render\jpeg\jconfig.h" />
+    <ClInclude Include="..\client\render\jpeg\jdct.h" />
+    <ClInclude Include="..\client\render\jpeg\jerror.h" />
+    <ClInclude Include="..\client\render\jpeg\jinclude.h" />
+    <ClInclude Include="..\client\render\jpeg\jmemsys.h" />
+    <ClInclude Include="..\client\render\jpeg\jmorecfg.h" />
+    <ClInclude Include="..\client\render\jpeg\jpegint.h" />
+    <ClInclude Include="..\client\render\jpeg\jpeglib.h" />
+    <ClInclude Include="..\client\render\jpeg\jversion.h" />
+    <ClInclude Include="..\client\render\jpeg\transupp.h" />
+    <ClInclude Include="..\client\render\png\config.h" />
+    <ClInclude Include="..\client\render\png\png.h" />
+    <ClInclude Include="..\client\render\png\pngconf.h" />
+    <ClInclude Include="..\client\render\png\pngdebug.h" />
+    <ClInclude Include="..\client\render\png\pnginfo.h" />
+    <ClInclude Include="..\client\render\png\pnglibconf.h" />
+    <ClInclude Include="..\client\render\png\pngpriv.h" />
+    <ClInclude Include="..\client\render\png\pngstruct.h" />
+    <ClInclude Include="..\client\render\Render.h" />
+    <ClInclude Include="..\client\render\Surface.h" />
+    <ClInclude Include="..\client\render\type.h" />
+    <ClInclude Include="..\client\render\zlib\crc32.h" />
+    <ClInclude Include="..\client\render\zlib\deflate.h" />
+    <ClInclude Include="..\client\render\zlib\gzguts.h" />
+    <ClInclude Include="..\client\render\zlib\inffast.h" />
+    <ClInclude Include="..\client\render\zlib\inffixed.h" />
+    <ClInclude Include="..\client\render\zlib\inflate.h" />
+    <ClInclude Include="..\client\render\zlib\inftrees.h" />
+    <ClInclude Include="..\client\render\zlib\trees.h" />
+    <ClInclude Include="..\client\render\zlib\zconf.h" />
+    <ClInclude Include="..\client\render\zlib\zlib.h" />
+    <ClInclude Include="..\client\render\zlib\zutil.h" />
+    <ClInclude Include="..\client\window\App.h" />
+    <ClInclude Include="..\client\window\Button.h" />
+    <ClInclude Include="..\client\window\ComboBox.h" />
+    <ClInclude Include="..\client\window\Edit.h" />
+    <ClInclude Include="..\client\window\Rect.h" />
+    <ClInclude Include="..\client\window\Static.h" />
+    <ClInclude Include="..\client\window\View.h" />
+    <ClInclude Include="..\client\window\Window.h" />
+    <ClInclude Include="..\client\window\WndProc.h" />
+    <ClInclude Include="..\common\Archive.h" />
+    <ClInclude Include="..\common\gnufuncs.h" />
+    <ClInclude Include="..\common\packet\deal_packet.h" />
+    <ClInclude Include="..\common\packet\game_start_packet.h" />
+    <ClInclude Include="..\common\packet\heartbit_packet.h" />
+    <ClInclude Include="..\common\packet\hello_packet.h" />
+    <ClInclude Include="..\common\packet\message_packet.h" />
+    <ClInclude Include="..\common\packet\packet.h" />
+    <ClInclude Include="..\common\packet\play_packet.h" />
+    <ClInclude Include="..\common\packet\scene_packet.h" />
+    <ClInclude Include="..\common\packet\server_info_packet.h" />
+    <ClInclude Include="..\common\packet_parser.h" />
+    <ClInclude Include="..\common\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="..\common\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="..\common\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="..\common\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="..\common\rules\gouji.h" />
+    <ClInclude Include="..\common\Serial.h" />
+    <ClInclude Include="..\common\tools\config.h" />
+    <ClInclude Include="..\common\tools\dump.h" />
+    <ClInclude Include="..\common\tools\lock.h" />
+    <ClInclude Include="..\common\tools\select.h" />
+    <ClInclude Include="..\common\tools\socket.h" />
+    <ClInclude Include="..\common\util\string.h" />
+    <ClInclude Include="..\log\iptv_logging.h" />
+    <ClInclude Include="..\log\log.h" />
+    <ClInclude Include="..\log\log_tracer.h" />
+    <ClInclude Include="..\log\log_tracer_file.h" />
+    <ClInclude Include="..\log\log_tracer_shell.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\client\render\jpeg\test.jpg" />
+    <None Include="..\client\render\zlib\Makefile" />
+    <None Include="..\client\window\Makefile" />
+    <None Include="..\common\Makefile">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

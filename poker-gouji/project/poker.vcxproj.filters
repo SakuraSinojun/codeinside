@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{11468e27-5227-4f77-9f3b-22073fb772d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\tools">
+      <UniqueIdentifier>{eddf1313-2376-4997-9e09-d86f409c74f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\packet">
+      <UniqueIdentifier>{c6f2a5f6-9273-4a51-a069-b43bbe09bfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\util">
+      <UniqueIdentifier>{30c38ab7-9b56-4a72-9380-f422f14dee07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\rapidxml">
+      <UniqueIdentifier>{31dbf506-7b83-426d-88a4-94729e43aaf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{a81b3bff-ae5d-42d5-b0dd-74e921ebdb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{1b91ef38-a7ca-4437-8c41-a121b21408fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\window">
+      <UniqueIdentifier>{f9bb688a-8095-44e5-8587-696ce30b7236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\render">
+      <UniqueIdentifier>{b8879261-9681-41de-9f74-81d024f98ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\render\zlib">
+      <UniqueIdentifier>{d355b031-4295-4382-afcd-8ce489f81939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\render\png">
+      <UniqueIdentifier>{50cc4e46-5106-4242-aed5-ee3fa0679c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\render\jpeg">
+      <UniqueIdentifier>{bb5e11e1-3a97-4ae0-808a-51e34b838328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\rules">
+      <UniqueIdentifier>{a86e8c5b-b5e9-42b5-8c00-bd7ce88aa8c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\common\Archive.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\gnufuncs.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet_parser.cc">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\config.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\dump.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\lock.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\select.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tools\socket.cc">
+      <Filter>common\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\deal_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\game_start_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\heartbit_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\hello_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\message_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\server_info_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\util\string.cc">
+      <Filter>common\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\iptv_logging.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\log.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\log_tracer.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\log_tracer_file.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\log_tracer_shell.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\window\App.cpp">
+      <Filter>client\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\window\Button.cpp">
+      <Filter>client\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\window\ComboBox.cpp">
+      <Filter>client\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\window\Edit.cpp">
+      <Filter>client\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\window\Rect.cpp">
+      <Filter>client\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\window\Static.cpp">
+      <Filter>client\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\window\View.cpp">
+      <Filter>client\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\window\Window.cpp">
+      <Filter>client\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\window\WndProc.cpp">
+      <Filter>client\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\connect.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\game.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\game_window.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\getopt.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\info.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\main.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\packet_dispatcher.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\Animation.cc">
+      <Filter>client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\Render.cc">
+      <Filter>client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\Surface.cc">
+      <Filter>client\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jaricom.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcapimin.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcapistd.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcarith.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jccoefct.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jccolor.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcdctmgr.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jchuff.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcinit.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcmainct.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcmarker.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcmaster.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcomapi.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcparam.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcprepct.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jcsample.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jctrans.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdapimin.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdapistd.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdarith.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdatadst.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdatasrc.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdcoefct.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdcolor.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jddctmgr.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdhuff.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdinput.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdmainct.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdmarker.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdmaster.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdmerge.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdpostct.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdsample.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jdtrans.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jerror.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jfdctflt.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jfdctfst.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jfdctint.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jidctflt.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jidctfst.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jidctint.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jmemmgr.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jmemnobs.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jquant1.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jquant2.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\jpeg\jutils.c">
+      <Filter>client\render\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\png.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngerror.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngget.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngmem.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngpread.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngread.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngrio.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngrtran.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngrutil.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngset.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngtrans.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngwio.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngwrite.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngwtran.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\png\pngwutil.c">
+      <Filter>client\render\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\adler32.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\compress.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\crc32.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\deflate.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\gzclose.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\gzlib.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\gzread.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\gzwrite.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\infback.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\inffast.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\inflate.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\inftrees.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\trees.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\uncompr.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\render\zlib\zutil.c">
+      <Filter>client\render\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\scene_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\rules\gouji.cc">
+      <Filter>common\rules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\packet\play_packet.cc">
+      <Filter>common\packet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\Archive.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\gnufuncs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet_parser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Serial.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\config.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\dump.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\lock.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\select.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tools\socket.h">
+      <Filter>common\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\deal_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\game_start_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\heartbit_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\hello_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\message_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\server_info_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\util\string.h">
+      <Filter>common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rapidxml\rapidxml.hpp">
+      <Filter>common\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rapidxml\rapidxml_iterators.hpp">
+      <Filter>common\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rapidxml\rapidxml_print.hpp">
+      <Filter>common\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rapidxml\rapidxml_utils.hpp">
+      <Filter>common\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\iptv_logging.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\log_tracer.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\log_tracer_file.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\log_tracer_shell.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\window\App.h">
+      <Filter>client\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\window\Button.h">
+      <Filter>client\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\window\ComboBox.h">
+      <Filter>client\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\window\Edit.h">
+      <Filter>client\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\window\Rect.h">
+      <Filter>client\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\window\Static.h">
+      <Filter>client\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\window\View.h">
+      <Filter>client\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\window\Window.h">
+      <Filter>client\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\window\WndProc.h">
+      <Filter>client\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\connect.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\game.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\game_window.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\getopt.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\info.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\packet_dispatcher.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\Animation.h">
+      <Filter>client\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\Render.h">
+      <Filter>client\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\Surface.h">
+      <Filter>client\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\type.h">
+      <Filter>client\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\transupp.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\cderror.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\cdjpeg.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\jconfig.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\jdct.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\jerror.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\jinclude.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\jmemsys.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\jmorecfg.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\jpegint.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\jpeglib.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\jpeg\jversion.h">
+      <Filter>client\render\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\png\config.h">
+      <Filter>client\render\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\png\png.h">
+      <Filter>client\render\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\png\pngconf.h">
+      <Filter>client\render\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\png\pngdebug.h">
+      <Filter>client\render\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\png\pnginfo.h">
+      <Filter>client\render\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\png\pnglibconf.h">
+      <Filter>client\render\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\png\pngpriv.h">
+      <Filter>client\render\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\png\pngstruct.h">
+      <Filter>client\render\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\crc32.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\deflate.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\gzguts.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\inffast.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\inffixed.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\inflate.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\inftrees.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\trees.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\zconf.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\zlib.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\render\zlib\zutil.h">
+      <Filter>client\render\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\scene_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\rules\gouji.h">
+      <Filter>common\rules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet\play_packet.h">
+      <Filter>common\packet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\Makefile">
+      <Filter>common</Filter>
+    </None>
+    <None Include="..\client\window\Makefile">
+      <Filter>client\window</Filter>
+    </None>
+    <None Include="..\client\render\jpeg\test.jpg">
+      <Filter>client\render\jpeg</Filter>
+    </None>
+    <None Include="..\client\render\zlib\Makefile">
+      <Filter>client\render\zlib</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gate", "gate.vcxproj", "{62D71B7C-26A4-44C4-9D58-38906EA3C905}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "poker", "poker.vcxproj", "{306F764D-1406-462D-867A-D3C755F81A99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D71B7C-26A4-44C4-9D58-38906EA3C905}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62D71B7C-26A4-44C4-9D58-38906EA3C905}.Debug|Win32.Build.0 = Debug|Win32
+		{62D71B7C-26A4-44C4-9D58-38906EA3C905}.Release|Win32.ActiveCfg = Release|Win32
+		{62D71B7C-26A4-44C4-9D58-38906EA3C905}.Release|Win32.Build.0 = Release|Win32
+		{306F764D-1406-462D-867A-D3C755F81A99}.Debug|Win32.ActiveCfg = Debug|Win32
+		{306F764D-1406-462D-867A-D3C755F81A99}.Debug|Win32.Build.0 = Debug|Win32
+		{306F764D-1406-462D-867A-D3C755F81A99}.Release|Win32.ActiveCfg = Release|Win32
+		{306F764D-1406-462D-867A-D3C755F81A99}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
