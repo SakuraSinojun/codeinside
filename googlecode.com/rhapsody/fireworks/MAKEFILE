@@ -1,0 +1,37 @@
+
+
+CC = cl
+LD = link
+
+CFLAGS = /nologo /W3 /MT /O2 /D "_MSVC" /c /EHsc
+LDFLAGS = /nologo gdi32.lib user32.lib msimg32.lib winmm.lib
+CCOUT = /Fo
+LDOUT = /OUT: 
+
+
+OBJS = firework.o \
+	window.o \
+	fire.o
+	
+TARGET = firework.exe
+
+all: $(TARGET) 
+
+$(TARGET): $(OBJS)
+	@echo Linking $@ ...
+	$(LD) $(OBJS) $(LDFLAGS) $(LDOUT)$@
+
+
+.cpp.o:
+	@echo Compling $< ...
+	$(CC) $< $(CFLAGS) $(CCOUT)$@ 
+
+rebuild: clean $(TARGET)
+
+
+.PHONY: clean
+
+clean:
+	del *.o
+
+

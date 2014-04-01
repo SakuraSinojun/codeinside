@@ -1,0 +1,47 @@
+
+
+CC = cl
+LD = link
+
+CFLAGS = /nologo /W3 /MT /O2 /D "_MSVC" /c /EHsc
+LDFLAGS = /nologo gdi32.lib user32.lib msimg32.lib winmm.lib
+
+
+
+
+OBJS = cchess.o \
+	chessboard.o \
+	piece.o \
+	piecerook.o \
+	pieceknight.o \
+	piecebishop.o \
+	piecemandarin.o \
+	pieceking.o \
+	piececannon.o \
+	piecepawn.o \
+	chinesechess.o \
+	window.o \
+	preload.o
+
+TARGET = ../ÖÐ¹úÏóÆå.exe
+
+all: $(TARGET) 
+
+$(TARGET): $(OBJS)
+	@echo Linking $@ ...
+	$(LD) $(OBJS) $(LDFLAGS) /OUT:$@
+
+
+.cpp.o:
+	@echo Compling $< ...
+	$(CC) $< $(CFLAGS) /Fo$@ 
+
+rebuild: clean $(TARGET)
+
+
+.PHONY: clean
+
+clean:
+	del *.o
+
+
